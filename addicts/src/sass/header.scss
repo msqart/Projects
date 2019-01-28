@@ -1,0 +1,188 @@
+.header {
+  padding: 17px 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+  background: transparent;
+  transition: top $time, background 1s ease-in-out, opacity $time, position $time;
+  top: -5%;
+  &.active {
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    transition: top $time, background 1s ease-in-out, opacity $time, position $time;
+  }
+  .header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left_side {
+      .header_logo {
+        width: 100%;
+        max-width: 91px;
+        height: auto;
+        transition: transform $time;
+        &:hover {
+          transform: scale(.90);
+        }
+      }
+    }
+    .right_side {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1250px;
+      .burger_menu {
+        width: 36px;
+        height: 36px;
+        border: 2px solid #20a7ab;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        background: transparent;
+        &:before {
+          content:'';
+          position: absolute;
+          right: 0;
+          width: 0;
+          height: 100%;
+          background: #20a7ab;
+          transition: width $time;
+          top: 0;
+        }
+        &:hover:before {
+          width: 100%;
+        }
+        &:hover span {
+          background: $colorWhite;
+          &:after, &:before {
+            background: #fff;
+          }
+        }
+        span {
+          width: 70%;
+          height: 2px;
+          background: #20a7ab;
+          position: relative;
+          transition: background $time;
+          &:after {
+            position: absolute;
+            top: -6px;
+            content: '';
+            width: 70%;
+            height: 2px;
+            right: 0;
+            background: #20a7ab;
+            transition: background $time;
+          }
+          &:before {
+            position: absolute;
+            top: 6px;
+            content: '';
+            width: 100%;
+            height: 2px;
+            right: 0;
+            background: #20a7ab;
+            transition: background $time;
+          }
+        }
+      }
+      .btn_cls {
+        top: 16%;
+        right: -100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: right $time .5s, opacity $time, visibility $time;
+        z-index: 70;
+        position: absolute;
+        &.active {
+          position: absolute;
+          opacity: 1;
+          visibility: visible;
+          right: 0;
+        }
+      }
+      .header_nav {
+        position: relative;
+        .nav_list {
+          display: flex;
+
+        }
+        a {
+          font-size: 20px;
+          margin-right: 25px;
+          color: #300c53;
+          font-weight: 400;
+          position: relative;
+          &:hover {
+            color: #20a7ab;
+          }
+          &:hover:before {
+            width: 100%;
+          }
+          &:before {
+            position: absolute;
+            content: '';
+            height: 2px;
+            width: 0;
+            left: 0;
+            bottom: -6px;
+            background: #20a7ab;
+            transition: width $time;
+          }
+          &:hover:after {
+            width: 100%;
+          }
+          &:after {
+            position: absolute;
+            content: '';
+            height: 2px;
+            width: 0;
+            right: 0;
+            top: -6px;
+            background: #20a7ab;
+            transition: width $time;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      .header_call {
+        color: #3b3e44;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0.36px;
+        margin-left: 20px;
+        position: relative;
+        &:hover:after {
+          width: calc(100% - 34px);
+        }
+        &:after {
+          right: 0;
+          position: absolute;
+          content: '';
+          width: 0;
+          height: 2px;
+          background: #20a7ab;
+          bottom: -6px;
+          transition: width $time;
+        }
+        &:before {
+          content: '\e803';
+          font-family: 'fontello';
+          margin-right: 12px;
+          color: #20a7ab;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.popup {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(45, 71, 108, .4);
+  z-index: 70;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: visibility .5s ease-in-out, opacity .5s ease-in-out;
+  overflow-y: auto;
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .popup_box {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    padding: 50px 30px;
+    border-radius: 30px;
+    background: $white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .video_wrap {
+      position: relative;
+      width: 100%;
+      height: 350px;
+      iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      input {
+        background: $white;
+        border-radius: 36px;
+        border: 1px solid $green;
+        padding: 10px 30px;
+        margin-bottom: 15px;
+        height: 50px;
+        color: $blue;
+        font-weight: 700;
+      }
+    }
+    .title {
+      margin-bottom: 40px;
+    }
+    input {
+      width: 100%;
+      max-width: 450px;
+    }
+  }
+}
+.cls_btn {
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  cursor: pointer;
+  &:hover:before {
+    transform: rotate(45deg) + scale(.8);
+  }
+  &:hover:after {
+    transform: rotate(-45deg) + scale(.8);
+  }
+  &:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: $blue;
+    transform: rotate(45deg);
+    transition: transform .5s ease-in-out, background .5s ease-in-out;
+  }
+  &:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: $blue;
+    transform: rotate(-45deg);
+    transition: transform .5s ease-in-out, background .5s ease-in-out;
+  }
+}

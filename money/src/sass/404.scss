@@ -1,0 +1,39 @@
+.error_page {
+  padding: 50px 0;
+  .error_wrap {
+    margin: auto;
+  }
+  .error_bg {
+    width: 100%;
+    max-width:527px;
+    height: auto;
+    position: relative;
+    margin: 0 auto 60px;
+    img {
+      position: relative;
+      width: 100%;
+      height: auto;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+    }
+  }
+  .error_info {
+    text-align: center;
+    p {
+      color: #01ca94;
+      font-size: 24px;
+      font-weight: 400;
+      span {
+        font-size: 48px;
+        font-weight: 900;
+        color: #131313;
+      }
+      a {
+        color: #01ca94;
+        font-weight: 900;
+        text-decoration: underline;
+      }
+    }
+  }
+}

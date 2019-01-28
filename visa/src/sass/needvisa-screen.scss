@@ -1,0 +1,108 @@
+.needvisa_screen {
+  padding-top: 210px;
+  padding-bottom: 110px;
+  .title {
+    margin-bottom: 80px;
+  }
+  .title_desc {
+    margin-bottom: 150px;
+  }
+  .needvisa_box {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .box_el {
+    margin: 0 15px 108px;
+    width: 100%;
+    max-width: 258px;
+    min-width: 200px;
+    flex: 0 1 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    top: 50px;
+    p {
+      color: $dark-blue;
+      font-family: $fontMontserrat;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 34px;
+      letter-spacing: 0.4px;
+      text-align: center;
+    }
+    span {
+      margin-bottom: 40px;
+      width: 72px;
+      height: 72px;
+      background: #efecf3;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 21px;
+        height: 21px;
+        background: #efecf3;
+        border-radius: 50%;
+        right: -20px;
+        bottom: -20px;
+      }
+      i {
+        position: relative;
+        margin-left: -25px;
+        &:before {
+          color: #8867a8;
+        }
+      }
+    }
+    &:nth-child(1) {
+      transition: .6s .3s ease-out;
+    }
+    &:nth-child(2) {
+      transition: .6s .6s ease-out;
+    }
+    &:nth-child(3) {
+      transition: .6s .9s ease-out;
+    }
+    &:nth-child(4) {
+      transition: .6s 1.2s ease-out;
+    }
+    &:nth-child(5) {
+      transition: .6s 1.5s ease-out;
+    }
+    &:nth-child(6) {
+      transition: .6s 1.8s ease-out;
+    }
+    &:nth-child(7) {
+      transition: .6s 2.1s ease-out;
+    }
+    &:nth-child(8) {
+      transition: .6s 2.4s ease-out;
+    }
+    &:nth-child(9) {
+      transition: .6s 2.7s ease-out;
+    }
+    &:nth-child(10) {
+      transition: .6s 3s ease-out;
+    }
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      top: 0;
+    }
+  }
+}

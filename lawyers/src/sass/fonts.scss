@@ -1,0 +1,212 @@
+/*_Font_*/
+@font-face {
+  font-family: 'Lato';
+  src: urlCss('fonts/Lato-Bold/lato-bold.eot');
+  src: urlCss('fonts/Lato-Bold/lato-bold.eot') format('embedded-opentype'),
+  urlCss('fonts/Lato-Bold/lato-bold.woff2') format('woff2'),
+  urlCss('fonts/Lato-Bold/lato-bold.woff') format('woff'),
+  urlCss('fonts/Lato-Bold/lato-bold.ttf') format('truetype'),
+  urlCss('fonts/Lato-Bold/lato-bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: urlCss('fonts/Lato-Light/lato-light.eot');
+  src: urlCss('fonts/Lato-Light/lato-light.eot') format('embedded-opentype'),
+  urlCss('fonts/Lato-Light/lato-light.woff2') format('woff2'),
+  urlCss('fonts/Lato-Light/lato-light.woff') format('woff'),
+  urlCss('fonts/Lato-Light/lato-light.ttf') format('truetype'),
+  urlCss('fonts/Lato-Light/lato-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: urlCss('fonts/Lato-Regular/lato-regular.eot');
+  src: urlCss('fonts/Lato-Regular/lato-regular.eot') format('embedded-opentype'),
+  urlCss('fonts/Lato-Regular/lato-regular.woff2') format('woff2'),
+  urlCss('fonts/Lato-Regular/lato-regular.woff') format('woff'),
+  urlCss('fonts/Lato-Regular/lato-regular.ttf') format('truetype'),
+  urlCss('fonts/Lato-Regular/lato-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  src: urlCss('fonts/Philosopher-Regular/philosopher-regular.eot');
+  src: urlCss('fonts/Philosopher-Regular/philosopher-regular.eot') format('embedded-opentype'),
+  urlCss('fonts/Philosopher-Regular/philosopher-regular.woff2') format('woff2'),
+  urlCss('fonts/Philosopher-Regular/philosopher-regular.woff') format('woff'),
+  urlCss('fonts/Philosopher-Regular/philosopher-regular.ttf') format('truetype'),
+  urlCss('fonts/Philosopher-Regular/philosopher-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: urlCss('fonts/fontello/fontello.eot?77419675');
+  src: urlCss('fonts/fontello/fontello.eot?77419675#iefix') format('embedded-opentype'),
+  urlCss('fonts/fontello/fontello.woff2?77419675') format('woff2'),
+  urlCss('fonts/fontello/fontello.woff?77419675') format('woff'),
+  urlCss('fonts/fontello/fontello.ttf?77419675') format('truetype'),
+  urlCss('fonts/fontello/fontello.svg?77419675#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*
+
+.icon-arrow-practice:before {
+  content: '\e800';
+}
+
+!* '' *!
+.icon-corporat:before {
+  content: '\e801';
+}
+
+!* '' *!
+.icon-court:before {
+  content: '\e802';
+}
+
+!* '' *!
+.icon-facebook:before {
+  content: '\e803';
+}
+
+!* '' *!
+.icon-fb:before {
+  content: '\e804';
+}
+
+!* '' *!
+.icon-hme:before {
+  content: '\e805';
+}
+
+!* '' *!
+.icon-hozyastvennoe:before {
+  content: '\e806';
+}
+
+!* '' *!
+.icon-insta:before {
+  content: '\e807';
+}
+
+!* '' *!
+.icon-intelectp:before {
+  content: '\e808';
+}
+
+!* '' *!
+.icon-lang-arrow:before {
+  content: '\e809';
+}
+
+!* '' *!
+.icon-mail:before {
+  content: '\e80a';
+}
+
+!* '' *!
+.icon-nalagovoe:before {
+  content: '\e80b';
+}
+
+!* '' *!
+.icon-naruchniki:before {
+  content: '\e80c';
+}
+
+!* '' *!
+.icon-phone:before {
+  content: '\e80d';
+}
+
+!* '' *!
+.icon-placeholder:before {
+  content: '\e80e';
+}
+
+!* '' *!
+.icon-razreshenie:before {
+  content: '\e80f';
+}
+
+!* '' *!
+.icon-security:before {
+  content: '\e810';
+}
+
+!* '' *!
+.icon-vector-smart-object:before {
+  content: '\e811';
+}
+
+!* '' *!
+.icon-vector-smart-object1:before {
+  content: '\e812';
+}
+
+!* '' *!
+.icon-vector-smart-object2:before {
+  content: '\e813';
+}
+
+!* '' *!
+.icon-antimonopoly:before {
+  content: '\e814';
+}
+
+!* '' *!
+.icon-arrow:before {
+  content: '\e815';
+}
+
+!* '' *!*/
+
+
+.icon-antimonopoly:before { content: '\e800'; } /* '' */
+.icon-arrow:before { content: '\e801'; } /* '' */
+.icon-arrow-practice:before { content: '\e802'; } /* '' */
+.icon-corporat:before { content: '\e803'; } /* '' */
+.icon-court:before { content: '\e804'; } /* '' */
+.icon-facebook:before { content: '\e805'; } /* '' */
+.icon-fb:before { content: '\e806'; } /* '' */
+.icon-hme:before { content: '\e807'; } /* '' */
+.icon-hozyastvennoe:before { content: '\e808'; } /* '' */
+.icon-insta:before { content: '\e809'; } /* '' */
+.icon-intelectp:before { content: '\e80a'; } /* '' */
+.icon-lang-arrow:before { content: '\e80b'; } /* '' */
+.icon-mail:before { content: '\e80c'; } /* '' */
+.icon-nalagovoe:before { content: '\e80d'; } /* '' */
+.icon-naruchniki:before { content: '\e80e'; } /* '' */
+.icon-phone:before { content: '\e80f'; } /* '' */
+.icon-placeholder:before { content: '\e810'; } /* '' */
+.icon-razreshenie:before { content: '\e811'; } /* '' */
+.icon-security:before { content: '\e812'; } /* '' */
+.icon-vector-smart-object:before { content: '\e813'; } /* '' */
+.icon-vector-smart-object1:before { content: '\e814'; } /* '' */
+.icon-vector-smart-object2:before { content: '\e815'; } /* '' */

@@ -1,0 +1,210 @@
+/*_Font_*/
+@font-face {
+  font-family: 'Montserrat';
+  src: urlCss('fonts/Montserrat-Regular/montserrat-regular.eot');
+  src: urlCss('fonts/Montserrat-Regular/montserrat-regular.eot') format('embedded-opentype'),
+  urlCss('fonts/Montserrat-Regular/montserrat-regular.woff2') format('woff2'),
+  urlCss('fonts/Montserrat-Regular/montserrat-regular.woff') format('woff'),
+  urlCss('fonts/Montserrat-Regular/montserrat-regular.ttf') format('truetype'),
+  urlCss('fonts/Montserrat-Regular/montserrat-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: urlCss('fonts/Montserrat-Light/montserrat-light.eot');
+  src: urlCss('fonts/Montserrat-Light/montserrat-light.eot') format('embedded-opentype'),
+  urlCss('fonts/Montserrat-Light/montserrat-light.woff2') format('woff2'),
+  urlCss('fonts/Montserrat-Light/montserrat-light.woff') format('woff'),
+  urlCss('fonts/Montserrat-Light/montserrat-light.ttf') format('truetype'),
+  urlCss('fonts/Montserrat-Light/montserrat-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: urlCss('fonts/Montserrat-SemiBold/montserrat-semibold.eot');
+  src: urlCss('fonts/Montserrat-SemiBold/montserrat-semibold.eot') format('embedded-opentype'),
+  urlCss('fonts/Montserrat-SemiBold/montserrat-semibold.woff2') format('woff2'),
+  urlCss('fonts/Montserrat-SemiBold/montserrat-semibold.woff') format('woff'),
+  urlCss('fonts/Montserrat-SemiBold/montserrat-semibold.ttf') format('truetype'),
+  urlCss('fonts/Montserrat-SemiBold/montserrat-semibold.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: urlCss('fonts/Montserrat-Medium/montserrat-medium.eot');
+  src: urlCss('fonts/Montserrat-Medium/montserrat-medium.eot') format('embedded-opentype'),
+  urlCss('fonts/Montserrat-Medium/montserrat-medium.woff2') format('woff2'),
+  urlCss('fonts/Montserrat-Medium/montserrat-medium.woff') format('woff'),
+  urlCss('fonts/Montserrat-Medium/montserrat-medium.ttf') format('truetype'),
+  urlCss('fonts/Montserrat-Medium/montserrat-medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: urlCss('fonts/Montserrat-Bold/montserrat-bold.eot');
+  src: urlCss('fonts/Montserrat-Bold/montserrat-bold.eot') format('embedded-opentype'),
+  urlCss('fonts/Montserrat-Bold/montserrat-bold.woff2') format('woff2'),
+  urlCss('fonts/Montserrat-Bold/montserrat-bold.woff') format('woff'),
+  urlCss('fonts/Montserrat-Bold/montserrat-bold.ttf') format('truetype'),
+  urlCss('fonts/Montserrat-Bold/montserrat-bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: urlCss('fonts/fontello/fontello.eot?85643178');
+  src: urlCss('fonts/fontello/fontello.eot?85643178#iefix') format('embedded-opentype'),
+  urlCss('fonts/fontello/fontello.woff2?85643178') format('woff2'),
+  urlCss('fonts/fontello/fontello.woff?85643178') format('woff'),
+  urlCss('fonts/fontello/fontello.ttf?85643178') format('truetype'),
+  urlCss('fonts/fontello/fontello.svg?85643178#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src: urlCss('fonts/icomoon/icomoon.eot?s7n6rn');
+  src: urlCss('fonts/icomoon/icomoon.eot?s7n6rn#iefix') format('embedded-opentype'),
+  urlCss('fonts/icomoon/icomoon.ttf?s7n6rn') format('truetype'),
+  urlCss('fonts/icomoon/icomoon.woff?s7n6rn') format('woff'),
+  urlCss('fonts/icomoon/icomoon.svg?s7n6rn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+  color: #fff;
+}
+
+.icon-calendar:before {
+  content: "\e901";
+}
+
+.icon-cash_bus:before {
+  content: "\e902";
+  color: #fff;
+}
+
+.icon-cash_home:before {
+  content: "\e903";
+  color: #fff;
+}
+
+.icon-cash_notes:before {
+  content: "\e904";
+  color: #fff;
+}
+
+.icon-cash_passport:before {
+  content: "\e905";
+  color: #fff;
+}
+
+.icon-cellphone:before {
+  content: "\e906";
+}
+
+.icon-envelope-of-white-paper:before {
+  content: "\e907";
+}
+
+.icon-fb:before {
+  content: "\e908";
+  color: #fff;
+}
+
+.icon-lc:before {
+  content: "\e909";
+  color: #fff;
+}
+
+.icon-notes:before {
+  content: "\e90a";
+}
+
+.icon-reg:before {
+  content: "\e90b";
+}
+
+.icon-take_money:before {
+  content: "\e90c";
+}
+
+.icon-telegram:before {
+  content: "\e90d";
+  color: #fff;
+}
+
+.icon-twitter:before {
+  content: "\e90e";
+  color: #fff;
+}
+
+.icon-verify:before {
+  content: "\e90f";
+}
+
+.icon-vk:before {
+  content: "\e910";
+  color: #fff;
+}
+
+/*
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before { content: '\e800'; } !* '' *!
+.icon-cash_bus:before { content: '\e801'; } !* '' *!
+.icon-cash_home:before { content: '\e802'; } !* '' *!
+.icon-cash_notes:before { content: '\e803'; } !* '' *!
+.icon-cash_passport:before { content: '\e804'; } !* '' *!
+.icon-fb:before { content: '\e805'; } !* '' *!
+.icon-lc:before { content: '\e806'; } !* '' *!
+.icon-notes:before { content: '\e807'; } !* '' *!
+.icon-reg:before { content: '\e808'; } !* '' *!
+.icon-take_money:before { content: '\e809'; } !* '' *!
+.icon-telegram:before { content: '\e80a'; } !* '' *!
+.icon-twitter:before { content: '\e80b'; } !* '' *!
+.icon-verify:before { content: '\e80c'; } !* '' *!
+.icon-vk:before { content: '\e80d'; } !* '' *!
+.icon-arrow:before { content: '\e80e'; } !* '' *!*/

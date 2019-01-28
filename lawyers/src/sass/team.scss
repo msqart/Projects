@@ -1,0 +1,32 @@
+/* BEGIN TEAM STYLE */
+.title-team {
+  margin-bottom: 70px;
+  & span {
+    left: -80px;
+    &:before {
+      margin-top: 20px;
+      left: 7px;
+    }
+  }
+}
+.team-box {
+  padding: 0 0 50px 0 !important;
+}
+.triangular-team {
+  &:before {
+    margin-top: -18% !important;
+  }
+}
+
+.team-img-wrapp-bottom {
+  &:before {
+    display: block;
+  }
+}
+.team-img-wrapp-top {
+  height: 60%;
+  top: 0;
+  max-height: initial;
+  transition: height .5s ease-in-out;
+}
+/* END TEAM STYLE */

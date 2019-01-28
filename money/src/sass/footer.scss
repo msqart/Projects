@@ -1,0 +1,116 @@
+.footer {
+  overflow: hidden;
+  background-image: linear-gradient(104deg, rgba(241, 134, 65, 1) 21%, rgba(246, 192, 80, 1) 100%);
+  padding: 48px 0 24px 0;
+  color: $white;
+  .footer_wrap {
+    display: flex; display:-webkit-flex;
+    flex-direction: column; -webkit-box-orient: vertical;
+  }
+  .footer_top {
+    display: flex; display:-webkit-flex;
+    margin-bottom: 16px;
+  }
+  .footer_main {
+    display: flex; display:-webkit-flex;
+    flex-direction: row;
+    margin-bottom: 44px;
+    justify-content: space-between;
+    p {
+      width: 100%;
+      max-width: 370px;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 14px;
+    }
+    .footer_nav {
+      display: flex; display:-webkit-flex;
+      flex-direction: column; -webkit-box-orient: vertical;
+      a {
+        margin-bottom: 16px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        position: relative;
+        &:after {
+          position: absolute;
+          content: '';
+          width: 0;
+          left: 0;
+          height: 1px;
+          background: $white;
+          transition: width .5s ease-in;
+          bottom: -5px;
+        }
+        &:hover:after {
+          width: 100%;
+        }
+      }
+    }
+    .footer_contacts {
+      display: flex; display:-webkit-flex;
+      flex-direction: column; -webkit-box-orient: vertical;
+      a {
+        margin-bottom: 16px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        position: relative;
+        &:after {
+          position: absolute;
+          content: '';
+          width: 0;
+          left: 0;
+          height: 1px;
+          background: $white;
+          transition: width .5s ease-in;
+          bottom: -5px;
+        }
+        &:hover:after {
+          width: 100%;
+        }
+      }
+    }
+    .footer_soc {
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        margin-bottom: 16px;
+      }
+      .soc_icons {
+        a {
+          margin-right: 32px;
+          &:last-child {
+            margin-right: 0;
+          }
+          i {
+            &:before {
+              color: $white;
+              transition: color .5s ease-in;
+            }
+            &:hover:before {
+              color: #00c697;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer_bottom {
+    display: flex; display:-webkit-flex;
+    justify-content: space-between;
+  }
+  .footer_logo {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    fill: #fff;
+    transition: fill .5s ease-in-out;
+  }
+  .payment_icons {
+    width: 100%;
+    max-width: 265px;
+    height: 100%;
+  }
+}

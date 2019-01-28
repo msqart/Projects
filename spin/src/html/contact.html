@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Logo Animation Services | Home</title>
+    <link media="all" type="text/css" rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+<!--BEGIN HEADER-->
+@@include('./templates/header.html')
+<!--END HEADER-->
+<!--BEGIN BREAD-->
+<div class="bread">
+    <div class="container">
+        <p><a href="index.html">Home</a></p>
+        <p>/</p>
+        <p><a href="contact.html">Contact</a></p>
+    </div>
+</div>
+<!--END BREAD-->
+<!--BEGIN FIRST SCREEN-->
+<section class="first_screen">
+    <div class="container">
+        <div class="first_screen__wrap">
+            <div class="info_box contact_i_b">
+                <h1 class="title title_block">Contact</h1>
+                <p>Logo animations are everywhere, from openers on Youtube videos to the giant screens in Times Square.
+                    Having one is one the easiest things you can do Renderforest.</p>
+                <div class="soc_box">
+                    <h3 class="title">Join us in social networks:</h3>
+                    <div class="soc_icons">
+                        <span><a href="#"><i class="icon-facebook"></i></a></span>
+                        <span><a href="#"><i class="icon-twitter"></i></a></span>
+                        <span><a href="#"><i class="icon-vimeo"></i></a></span>
+                        <span><a href="#"><i class="icon-youtube"></i></a></span>
+                        <span><a href="#"><i class="icon-instagram"></i></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="map_box">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--END FIRST SCREEN-->
+<!--BEGIN CONCEPT-->
+<section class="concept">
+    <div class="container">
+        <h3 class="title title_block">Get your free written Logo Animation concept:</h3>
+        <div class="form_box">
+            <form action="" name="main_form" class="main_form">
+                <input type="text" placeholder="Name" required>
+                <input type="text" placeholder="Surname" required>
+                <input type="tel" placeholder="Phone" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Logo URL" required>
+
+                <div class="upload_file">
+                    <input type="file" class="file" id="form_file" required>
+                    or <label for="form_file">Upload</label> no file selected
+                </div>
+                <input type="text" class="full_input" placeholder="Concept ideas, budget, deadline, questions, etc.">
+                <div class="submit">
+                    <button class="btn" type="submit">Submit</button>
+                    <input type="checkbox" id="accept">
+                    <label for="accept">I accept the terms and conditions</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!--END CONCEPT-->
+<!--BEGIN FOOTER-->
+@@include('./templates/footer.html')
+<!--END FOOTER-->
+</body>
+</html>

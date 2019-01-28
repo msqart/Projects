@@ -1,0 +1,120 @@
+html {
+  font-size: 1.06vw;
+}
+
+body {
+  background-color: $bodyBgColor;
+  font: 300 21px/1.52 $fontMain;
+  color: $colorText;
+  transition: background-color $time, color $time;
+
+  &.white {
+    background-color: #ffffff;
+    color: $colorTextLight;
+
+    .logo {
+      svg {
+        fill: $colorBlueLight;
+      }
+    }
+
+    .title_block {
+      color: $colorTextLight;
+    }
+  }
+}
+
+.btn {
+  width: 100%;
+  max-width: 195px;
+  border: none;
+  border-radius: 23px;
+  height: 45px;
+  background-image: linear-gradient(to right, #27ddca 0%, #47afd5 100%);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  transition: $time;
+  background-position: center;
+  box-shadow: 0 6px 25px rgba(36, 223, 251, 0);
+
+  &:hover {
+    box-shadow: 0 6px 35px rgba(36, 223, 251, 0.35);
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 5px;
+  margin: auto;
+}
+
+.title_block {
+  color: $colorBlue;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.logo {
+  svg {
+    width: 238px;
+    height: auto;
+    fill: #fff;
+    transition: color $time;
+  }
+}
+
+
+/*developed*/
+.developed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity $time;
+  opacity: .25;
+
+  svg {
+    width: 117px;
+    height: auto;
+  }
+
+  path {
+    fill: #fff;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@keyframes Pulsate {
+  from {
+    transform: scale(0.25);
+    opacity: .3;
+  }
+  70% {
+    transform: scale(1.3);
+    opacity: 0;
+  }
+  to {
+    transform: scale(0.25);
+    opacity: 0;
+  }
+}
+
+#map div[title="We are here"] {
+  animation: Pulsate 2s ease-in-out infinite both;
+  background: $colorBlue;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: -2px;
+}
+
+/*end developed*/

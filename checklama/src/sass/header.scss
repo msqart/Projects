@@ -1,0 +1,131 @@
+.header_main {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: #fff;
+  overflow: hidden;
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+  }
+}
+
+.logo {
+  display: inline-block;
+  img {
+    width: 100%;
+    max-width: 195px;
+    height: auto;
+  }
+}
+
+.nav {
+  .nav_wrap {
+    transition: all $time;
+    display: flex;
+    align-items: center;
+    a {
+      position: relative;
+      transition: $time;
+      &:hover {
+        color: #25baed;
+      }
+      &:before {
+        content: '';
+        width: 50%;
+        position: absolute;
+        top: 130%;
+        height: 2px;
+        right: -100%;
+        background: #25baed;
+        transition: $time;
+        opacity: 0;
+      }
+      &:after {
+        content: '';
+        width: 50%;
+        position: absolute;
+        top: 130%;
+        height: 2px;
+        left: -100%;
+        background: #25baed;
+        opacity: 0;
+        transition: $time;
+      }
+      &:hover:before {
+        opacity: 1;
+        right: 50%;
+      }
+      &:hover:after {
+        opacity: 1;
+        left: 50%;
+      }
+    }
+  }
+  p, a {
+    color: #9d99a9;
+    line-height: 1;
+    margin-left: 40px;
+  }
+}
+
+.nav_open {
+  display: none;
+}
+.nav_mobile_btn {
+  width: 40px;
+  height: 40px;
+  /*border: 2px solid #25baed;*/
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  span {
+    justify-content: flex-end;
+    display: flex;
+    width: 80%;
+    height: 2px;
+    background: #25baed;
+    transition: all 1s ease-in-out;
+    &:before {
+      content: '';
+      position: absolute;
+      display: block;
+      background: #25baed;
+      width: 60%;
+      transform: translateY(-8px);
+      height: 2px;
+      transition: all 0.5s ease-in-out;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      background: #25baed;
+      width: 80%;
+      transform: translateY(8px);
+      height: 2px;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}
+.btn_active {
+  span {
+    background: transparent;
+    &:before {
+      transform-origin: center;
+      width: 80%;
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform-origin: center;
+      width: 80%;
+      transform: rotate(-45deg);
+    }
+  }
+}

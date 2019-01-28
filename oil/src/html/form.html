@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Oil | Contacts</title>
+    <link media="all" type="text/css" rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+<div class="main_wrap">
+    <div class="article_bg"><img src="img/article_bg.png" alt=""></div>
+    <div class="main_content_wrap">
+        <!--BEGIN HEADER-->
+        @@include('./templates/header.html')
+        <!--END HEADER-->
+        <div class="page_img">
+            <h4 class="desc">Контакты</h4>
+            <img src="img/contacts_img.jpg" alt="">
+        </div>
+
+        <section class="article_box">
+            <div class="container">
+                <div class="article_box_left">
+                    <div class="a_b_l_category_list">
+
+                        <div class="a_b_l_item c_item active">
+                            <div class="a_b_l_parent">
+                                <a href="#">Форма связи</a>
+                            </div>
+                        </div>
+
+                        <div class="a_b_l_item c_item">
+                            <div class="a_b_l_parent">
+                                <a href="find.html">Как нас найти</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_box_right contact_map">
+                    <div class="bread">
+                        <a href="index.html">Главная</a>
+                        <a href="contacts.html">Контакты</a>
+                        <a href="form.html">Форма связи</a>
+                    </div>
+                    <div class="a_b_r_box">
+                        <h4 class="title">Задать вопрос</h4>
+                        <p>Если Вам нужна дополнительная консультация, опишите подробнее Ваш вопрос или проблему в электронной форме, и мы обязательно поможем найти Вам нужное решение.
+                            <br>Сотрудники отдела продаж оперативно и полно составят Вам коммерческое предложение, в случае вашей заинтересованности.
+                            <br>Напишите нам, и мы немедленно свяжемся с Вами.
+                        </p>
+                        <div class="form_wrap">
+                            <h4 class="title form_title">Форма обратной связи</h4>
+                            <form class="form_contact">
+                                <div class="input_wrap">
+                                    <input type="text" pattern="^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']?$" name="name" id="name" required>
+                                    <label for="name">Ваше имя</label>
+                                </div>
+                                <div class="input_wrap">
+                                    <input type="text" name="phone" id="phone" required>
+                                    <label for="phone">Номер телефона</label>
+                                </div>
+                                <div class="input_wrap">
+                                    <input type="text" name="question" id="question" required>
+                                    <label for="question">Интересующий Вас вопрос</label>
+                                </div>
+                                <div class="input_wrap">
+                                    <input type="email" name="email" id="email" required>
+                                    <label for="email">E-mail</label>
+                                </div>
+                                <button type="submit" class="btn">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--BEGIN FOOTER-->
+        @@include('./templates/footer.html')
+        <!--END FOOTER-->
+    </div>
+</div>
+</body>
+</html>

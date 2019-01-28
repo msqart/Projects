@@ -1,0 +1,35 @@
+.footer_main {
+  background-color: #32465c;
+  box-shadow: 0 13px 59px rgba(121, 125, 133, 0.11);
+  padding: 20px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer_year {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  .copy {
+    display: flex;
+    align-items: center;
+
+    .developed {
+      svg {
+        fill: #fff;
+        width: 100%;
+        max-width: 140px;
+        height: auto;
+        transition: fill $time;
+        &:hover {
+          fill: #25baed;
+        }
+      }
+    }
+  }
+}

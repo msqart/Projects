@@ -1,0 +1,14 @@
+@keyframes Coffee {
+  0% {
+    transform: translateY(0)  rotate(0) scale(1);
+  }
+  30% {
+    transform: translateY(30%)  rotate(120deg) scale(.6);
+  }
+  60% {
+    transform: translateY(10%)  rotate(240deg) scale(.8);
+  }
+  100% {
+    transform: translateY(0)  rotate(360deg) scale(1);
+  }
+}

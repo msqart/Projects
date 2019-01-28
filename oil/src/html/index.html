@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Oil | Main</title>
+    <link media="all" type="text/css" rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+<div class="main_wrap">
+    <div class="main_left_bg"><img src="img/main_left_bg.png" alt=""></div>
+    <div class="main_right_bg"><img src="img/main_right_bg.png" alt=""></div>
+    <div class="main_content_wrap">
+        <!--BEGIN HEADER-->
+        @@include('./templates/header.html')
+        <!--END HEADER-->
+        <!--BEGIN SLIDER-->
+        <div class="main_slider">
+            <div class="main_slide">
+                <div data-glide-el="track" class="glide__track">
+                    <div class="glide__slides">
+
+                        <div class="glide__slide">
+                            <div class="main_slide_wrap">
+                                <div class="main_slide_info">
+                                    <h4 class="m_s_i_title">Для экологически безопасных применений</h4>
+                                    <div class="m_s_i_text">
+                                        <p>Непредвиденное попадание смазочных материалов на минеральной основе
+                                            в биосферу оказывает очень токсичное воздействие на экосистему. Затраты от
+                                            нанесенного ущерба экологии на утилизацию и ликвидацию последствий весьма
+                                            значительны.</p>
+                                    </div>
+                                    <h4 class="m_s_i_desc">Загрязнять экологию дорого!</h4>
+                                </div>
+                                <img src="img/slider_img1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="glide__slide">
+                            <div class="main_slide_wrap">
+                                <div class="main_slide_info">
+                                    <h4 class="m_s_i_title">Для чистого применения</h4>
+                                    <div class="m_s_i_text">
+                                        <p>Возможность попадания смазочного материала или его паров в продукты питания
+                                            или на упаковку, практически невозможно исключить. Только смазочные
+                                            материалы, имеющие специальные допуски NSF, KOSHER, HALAL, могут
+                                            удовлетворять требованиям физиологической безопасности при производстве и
+                                            расфасовке продуктов питания и лекарственных средств.</p>
+                                    </div>
+                                    <h4 class="m_s_i_desc">От безопасного производства к вкусной и здоровой пище!</h4>
+                                </div>
+                                <img src="img/food_slider.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="glide__slide">
+                            <div class="main_slide_wrap">
+                                <div class="main_slide_info">
+                                    <h4 class="m_s_i_title">Для металлургических процессов</h4>
+                                    <div class="m_s_i_text">
+                                        <p>Экстремальное воздействие температур, нагрузок, коррозийной среды на
+                                            механизмы в металлургической промышленности требует применения
+                                            высокоэффективных смазочных материалов для уменьшения простоев и надежной
+                                            эксплуатации оборудования.</p>
+                                    </div>
+                                    <h4 class="m_s_i_desc">Правильное решение повышает рентабельность!</h4>
+                                </div>
+                                <img src="img/metal_slide.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glide__arrows main_slider_arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="icon-left-arrow"></i>
+                    </button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="icon-right-arrow"></i>
+                    </button>
+                </div>
+                <div class="glide__bullets main_slider_bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0">01</button>
+                    <button class="glide__bullet" data-glide-dir="=1">02</button>
+                    <button class="glide__bullet" data-glide-dir="=2">03</button>
+                </div>
+            </div>
+        </div>
+        <!--END SLIDER-->
+
+        <!--BEGIN WELCOME-->
+        <section class="main_welcome">
+            <div class="container">
+                <div class="m_w_left">
+                    <h4 class="title">Добро пожаловать!</h4>
+                    <div class="m_w_l_text">
+                        <p>Наша компания «АНТИФРИКЦИОННЫЕ ТЕХНОЛОГИИ», обладая большим опытом и знаниями в области
+                            промышленных и специальных смазочных материалов,
+                            предлагает наиболее оптимальные и эффективные решения для защиты от
+                            коррозии и износа узлов трения, эксплуатирующихся в самых экстремальных
+                            условиях высоких и низких температур, химически агрессивных сред, под
+                            воздействием шоковых нагрузок, пыли и влаги.</p>
+                    </div>
+                </div>
+                <div class="m_w_right load_active">
+                    <img src="img/welcome_girl.png" class="main_welcome_girl" alt="">
+                </div>
+            </div>
+            <a href="#" class="site_map">Карта сайта</a>
+        </section>
+        <!--END WELCOME-->
+
+        <!--BEGIN FOOTER-->
+        @@include('./templates/footer.html')
+        <!--END FOOTER-->
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1889 @@
+@media only screen and (orientation: portrait) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .map_init {
+    max-width: 800px;
+  }
+  .map_data {
+    max-width: 560px;
+  }
+  html {
+    font-size: 16px;
+  }
+  .why_honey {
+    .viny_why {
+      right: 0;
+    }
+
+  }
+  .why_honey {
+    .why_honey__box {
+      .honey_box__elem {
+        z-index: 3;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .credits_type {
+    .tabs_box {
+      width: inherit;
+    }
+  }
+
+  .footer_soc {
+    margin-right: 20px;
+  }
+  .header_wrap {
+    .header_right {
+      .log_in {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+
+  .pay_terminal {
+    .p_t_wasp_bg_f {
+      left: 0;
+      top: -15px;
+    }
+
+    .p_t_wasp_bg_t {
+      right: 0;
+      top: -10px;
+    }
+
+    .bottom_terminal {
+      .bottom_info__box {
+        .main_side {
+          img {
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) + translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+  .pay_cash {
+    .p_c_wasp_bg_t {
+      top: -140px;
+      left: 60px;
+    }
+  }
+
+  .contacts {
+    .contacts_map {
+      .c_card_bg {
+        right: -40px;
+      }
+    }
+
+    .contact_phone {
+      .phone_box {
+        flex-wrap: wrap;
+        align-items: center;
+
+        .phone_elem {
+          margin-right: inherit;
+        }
+      }
+    }
+  }
+  .how_repay {
+    .h_r_card_bg {
+      left: 20px;
+    }
+
+    .how_repay__right {
+      max-width: 150px;
+      right: -50px;
+      bottom: -120px;
+      z-index: 0;
+    }
+
+    .how_repay__left {
+      max-width: 150px;
+      left: -50px;
+      bottom: -120px;
+      z-index: 0;
+    }
+  }
+  .c_o_card {
+    .c_o_c__steps {
+      padding: 0 40px;
+    }
+
+    .card_top__sova {
+      right: -120px;
+    }
+
+    .card_top__vinny {
+      left: -150px;
+    }
+
+    .c_o_money_bg {
+      right: 20px;
+    }
+
+    .c_o_wasp_bg_t {
+      right: -60px;
+    }
+
+    .c_o_wasp_bg_f {
+      left: -40px;
+    }
+
+    .card_bottom__vinny {
+      right: -80px;
+    }
+
+    .card_bottom__pig {
+      left: -80px;
+    }
+
+    .c_o_money_t_bg {
+      right: 40px;
+    }
+
+    .c_o_pig_bg {
+      right: 30px;
+    }
+
+    .c_o_phone_bg {
+      left: 20px;
+    }
+
+    .c_o_wasp_bg_s {
+      left: 80px;
+    }
+  }
+  .why_honey {
+    overflow: hidden;
+
+    .desc {
+      position: relative;
+      z-index: 5;
+    }
+
+    .w_money_bg {
+      z-index: 1;
+    }
+
+    .sova_why {
+      top: 15%;
+      max-width: 200px;
+      left: -10%;
+    }
+
+    .viny_why {
+      top: 15%;
+      max-width: 200px;
+      right: -10%;
+    }
+  }
+  .take_money {
+    .take_top__left {
+      z-index: 2;
+      flex: 1 1 50%;
+    }
+
+    .take_top__img {
+      max-width: 150px;
+      z-index: 0;
+      top: 100%;
+      left: 40%;
+    }
+  }
+  .header_wrap {
+    .header_left {
+      flex-wrap: wrap;
+      flex: 1 1 20%;
+      /*.call {
+        display: flex; display:-webkit-flex;
+        flex-direction: column; -webkit-box-orient: vertical;
+      }*/
+    }
+
+    .header_right {
+      flex-wrap: wrap;
+      flex: 1 1 80%;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .map_elem {
+    transform: inherit;
+
+    &.active {
+      position: relative;
+    }
+  }
+  .contacts {
+    .contacts_map {
+      .map_wrap {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+  .map_init {
+    max-width: inherit;
+    z-index: 5;
+    max-height: 460px;
+  }
+  .map_data {
+    position: relative;
+    max-width: 560px;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .take_money {
+    .take_bottom__box {
+      .t_b_card_bg {
+        left: 90px;
+      }
+
+      .t_b_money_bg {
+        right: 90px;
+      }
+    }
+  }
+  .why_honey {
+    .viny_why {
+      right: -16%;
+    }
+
+    .sova_why {
+      left: -15%;
+    }
+  }
+  .pay_terminal {
+    .p_t_wasp_bg_f {
+      left: -40px;
+      top: -15px;
+    }
+
+    .p_t_wasp_bg_t {
+      right: -40px;
+      top: -10px;
+    }
+
+    .bottom_terminal {
+      .bottom_info__box {
+        .right_side {
+          p {
+            margin-left: 10px;
+          }
+        }
+
+        .left_side {
+          p {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+  .pay_cash {
+    .pay_cash__wrap {
+      .left_side {
+        flex: 1 1 30%;
+      }
+    }
+  }
+  .how_take {
+    .bottom_take__box {
+      .main_side {
+        max-width: 100px;
+
+        img {
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      .left_side {
+        margin-right: 0;
+      }
+
+      .right_side {
+        margin-left: 0;
+      }
+    }
+  }
+  .footer {
+    .footer_main {
+      flex-wrap: wrap;
+    }
+  }
+  .main_about {
+    .main_about__bottom {
+      width: 100%;
+    }
+
+    .main_about__top {
+      .desc {
+        z-index: 5;
+        position: relative;
+      }
+    }
+
+    .a_m_wasp_bg_t {
+      right: -10%;
+    }
+
+    .a_m_wasp_bg_f {
+      left: -10%;
+    }
+
+    .main_about__wrap {
+      padding: 0 30px;
+    }
+
+    .about_img__right {
+      right: -10%;
+      max-width: 150px;
+    }
+
+    .about_img__left {
+      left: -10%;
+      max-width: 150px;
+    }
+
+    .a_m_pig_bg {
+      right: 0;
+    }
+
+    .a_m_phone_bg {
+      left: 2%;
+    }
+  }
+  .credits_type {
+    .info_box .title {
+      z-index: 5;
+    }
+
+    .slider_box {
+      .slider_img {
+        max-width: 100px;
+      }
+
+      .slider_elem {
+        .left_side__info {
+          margin-right: 60px;
+        }
+
+        .right_side__info {
+          margin-left: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .header_wrap {
+    .header_right {
+      flex-direction: column-reverse;
+      align-items: flex-end;
+
+      .log_in {
+        margin-bottom: 10px;
+      }
+
+      .nav {
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pay_cash {
+    .pay_cash__wrap {
+      .right_side {
+        margin-bottom: 40px;
+      }
+    }
+
+    .p_c_phone_bg {
+      top: -110px;
+    }
+
+    .p_c_wasp_bg_t {
+      top: -170px;
+    }
+  }
+
+  .main_about {
+    .a_m_time_bg {
+      left: 20px;
+    }
+
+    .a_m_money_bg {
+      right: 10px;
+    }
+
+    .a_m_wasp_bg_t {
+      right: -90px;
+    }
+
+    .about_img__left {
+      left: -12%;
+      bottom: 0;
+    }
+
+    .about_img__right {
+      bottom: 0;
+    }
+  }
+
+  .credits_type {
+    padding: 50px 0 250px 0;
+
+    .btn_slider {
+      display: none;
+    }
+
+    .slider_box {
+      .slider_img {
+        max-width: 100px;
+        display: none;
+      }
+
+      .slider_elem {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        padding: 0 10px;
+
+        .left_side__info {
+          margin-right: 0;
+          text-align: left;
+        }
+
+        .right_side__info {
+          margin-left: 0;
+        }
+      }
+    }
+
+    .bottom_info {
+      padding: 50px 50px;
+      max-width: 520px;
+
+      .title {
+        font-size: 26px;
+        line-height: inherit;
+      }
+    }
+  }
+  .why_honey {
+    padding: 70px 0 10px 0;
+  }
+  .take_money {
+    padding: 10px 0;
+  }
+  .main_about {
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+
+  .map_elem {
+    padding: 40px 20px;
+  }
+  .how_take {
+    .bottom_take__box {
+      .take_box__info {
+        padding: 0 15px;
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+
+        & img {
+          left: 6%;
+          top: -53%;
+        }
+
+        & .elem {
+          flex: 1 1 100%;
+          margin-left: 0;
+          margin-right: 0;
+          text-align: left;
+          flex-direction: row-reverse;
+          justify-content: space-around;
+          align-items: center;
+
+          & i {
+            margin-right: 40px;
+            margin-left: 0;
+            justify-content: flex-start;
+          }
+
+          &:nth-child(3n + 2) {
+            flex: 1 1 100%;
+            margin-left: 0;
+            margin-right: 0;
+            text-align: left;
+            flex-direction: row-reverse;
+
+            & i {
+              margin-right: 25px;
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .take_money {
+    .take_bottom__box {
+      .take_bottom__elem {
+        .elem__icon {
+          max-width: inherit;
+          width: 50px;
+        }
+      }
+    }
+
+  }
+
+  .contacts {
+    .contacts_map {
+      .c_card_bg {
+        right: -40px;
+      }
+    }
+
+    .contact_phone {
+      .phone_box {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        align-items: center;
+
+        .phone_elem {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+  .pay_terminal {
+    .bottom_terminal {
+      .bottom_info__box {
+        .left_side {
+          p {
+            margin-right: 10px;
+          }
+        }
+
+        .right_side {
+          p {
+            margin-left: 10px;
+          }
+        }
+
+        .main_side {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .how_repay {
+    padding: 90px 0;
+  }
+  .pay_cash {
+    padding: 90px 0 20px 0;
+
+    .p_c_wasp_bg_f {
+      left: -30px;
+    }
+
+    .p_c_wasp_bg_s {
+      top: -50px;
+    }
+
+    .p_c_pig_bg {
+      top: 60px;
+      right: -20px;
+      left: inherit;
+    }
+
+    .pay_cash__wrap {
+      flex-direction: column;
+      -webkit-box-orient: vertical;
+
+      .left_side {
+        display: none;
+      }
+
+      .right_side {
+        padding-left: 20px;
+      }
+    }
+  }
+  .how_take {
+    .bottom_take__box {
+      .left_side {
+        .left_side__elem {
+          flex-direction: column-reverse;
+          width: 85%;
+          text-align: center;
+          margin: 0 auto 40px;
+
+          &:nth-child(2) {
+            i {
+              margin-left: 0;
+            }
+          }
+
+          i {
+            margin-bottom: 20px;
+            margin-left: 0;
+          }
+        }
+      }
+
+      .right_side {
+        .right_side__elem {
+          flex-direction: column-reverse;
+          width: 85%;
+          text-align: center;
+          margin: 0 auto 40px;
+
+          i {
+            margin-bottom: 20px;
+            margin-right: 0;
+          }
+        }
+      }
+
+      .take_box__info {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+
+  .footer {
+    .footer_wrap {
+      flex-direction: column;
+      -webkit-box-orient: vertical;
+      align-items: center;
+    }
+
+    .footer_main {
+      flex-direction: column;
+      -webkit-box-orient: vertical;
+      align-items: center;
+
+      p {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .footer_nav {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 20px 0;
+      }
+
+      .footer_contacts {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .footer_soc {
+        margin: 0;
+      }
+    }
+
+    .footer_bottom {
+      flex-direction: column;
+      -webkit-box-orient: vertical;
+
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .why_honey {
+    .w_money_bg {
+      right: -10%;
+    }
+
+    .w_phone_bg {
+      left: -10%;
+    }
+
+    .why_honey__box {
+      flex-wrap: wrap;
+    }
+
+    .why_honey__box {
+      .honey_box__elem {
+        flex: 1 1 50%;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+    }
+
+    .sova_why {
+      top: 15%;
+      max-width: 120px;
+      left: -10%;
+    }
+
+    .viny_why {
+      top: 15%;
+      max-width: 120px;
+      right: -10%;
+    }
+  }
+  .take_money {
+    .take_top__img {
+      max-width: 150px;
+      z-index: 0;
+      top: 50%;
+      left: 20%;
+    }
+
+    .take_top {
+      flex-direction: column;
+      -webkit-box-orient: vertical;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+
+    .take_bottom {
+      padding-top: 50px;
+
+      .title {
+        z-index: 5;
+        position: relative;
+      }
+    }
+
+    .take_bottom__box {
+      flex-direction: column;
+      -webkit-box-orient: vertical;
+      z-index: 1;
+
+      .take_bottom__img {
+        left: 50%;
+        top: 0;
+        z-index: 1;
+        max-width: 100px;
+      }
+
+      .row {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        align-items: center;
+        margin-bottom: 0;
+      }
+
+      .take_bottom__elem {
+        max-width: inherit;
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    }
+
+    .take_top__left {
+      align-items: center;
+      margin-bottom: 40px;
+
+      .offer_title {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .btn_circle {
+        margin: auto;
+      }
+    }
+  }
+  .header_wrap {
+    .header_left {
+      flex: 1 1 100%;
+      width: 100%;
+
+      .call {
+        a {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .header_right {
+    flex: 1 1 30%;
+  }
+  .burger_menu {
+    display: flex !important;
+  }
+  .header_wrap {
+    .header_right {
+      .nav {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: $white;
+        color: $dark;
+        z-index: 55;
+        transition: right .5s ease-in;
+
+        .nav_list {
+          display: flex;
+          display: -webkit-flex;
+          flex-direction: column;
+          -webkit-box-orient: vertical;
+          align-items: center;
+        }
+
+        .cls_menu {
+          display: flex;
+          display: -webkit-flex;
+        }
+
+        a {
+          margin: 0 0 30px 0;
+          font-weight: 700;
+          transition: right 1s ease-in;
+        }
+
+        &.active {
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .credits_type {
+    .slider_box {
+      .slider_elem {
+        padding: 0 10px;
+      }
+    }
+  }
+  .credit_info {
+    .credit_info_box {
+      padding: 30px 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .credits_type {
+    .btn_slider {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .map_data {
+    max-width: 360px;
+  }
+
+  .map_elem {
+    .map_elem_phone_list {
+      padding-left: 30px;
+
+      &:before {
+        width: 15px;
+        height: 60%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &:after {
+        width: 15px;
+        left: 8px;
+      }
+    }
+
+    .map_elem_phone {
+      .m_e_p_icon:before {
+        font-size: 30px;
+      }
+    }
+
+    .map_elem_email {
+      a {
+        font-size: 18px;
+        margin-left: 55px;
+
+        &:before {
+          left: -50px;
+          font-size: 30px;
+        }
+      }
+    }
+
+    .map_elem_phone {
+      .m_e_p_icon {
+        margin-right: 10px;
+      }
+
+      .map_elem_phone_list {
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .map_elem_content {
+      p {
+        font-size: 18px;
+      }
+
+    }
+
+    .map_elem_address {
+      .map_elem_title {
+        font-size: 18px;
+
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .main_about {
+    .a_m_wasp_bg_f {
+      left: -10%;
+      top: -10%;
+    }
+
+    .a_m_wasp_bg_s {
+      left: 5%;
+      top: -10%;
+    }
+
+    .a_m_wasp_bg_t {
+      top: -10%;
+    }
+
+    .a_m_money_bg {
+      top: -40px;
+      right: 20px;
+    }
+  }
+  .header_wrap {
+    .call {
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+    }
+  }
+  .how_take {
+    .bottom_take__box {
+      .take_box__info {
+        img {
+          left: 3%;
+          top: -25%;
+          max-width: 120px;
+        }
+
+        .elem {
+          flex-direction: column-reverse;
+
+          &:nth-child(3n + 2) {
+            i {
+              margin-bottom: 30px;
+              margin-right: 0;
+              margin-left: 0;
+            }
+          }
+
+          i {
+            margin-bottom: 30px !important;
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+
+            &:before {
+              margin-right: 0 !important;
+              margin-left: 0 !important;
+            }
+          }
+
+          p {
+            text-align: center;
+          }
+
+          &:nth-child(3n + 2) {
+            flex-direction: column-reverse;
+
+            & i {
+              margin-bottom: 30px;
+            }
+
+            & p {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .contacts {
+    .contacts_map {
+      .map_wrap {
+        .point_map {
+          width: 16px;
+          height: 22.6px;
+        }
+      }
+    }
+  }
+  .pay_cash {
+    .p_c_pig_bg {
+      right: -60px;
+    }
+
+    .pay_cash__wrap {
+      .left_side {
+        display: none;
+        bottom: -300px;
+      }
+    }
+  }
+  .pay_terminal {
+    padding: 50px 0;
+
+    .p_t_wasp_bg_f {
+      left: -20px;
+    }
+
+    .p_t_wasp_bg_t {
+      right: -20px;
+    }
+
+    .bottom_terminal {
+      .title {
+        margin-bottom: 20px;
+      }
+
+      .bottom_info__box {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+
+        .left_side {
+          margin: 0;
+
+          p {
+            text-align: center;
+            margin: 10px 10px;
+          }
+        }
+
+        .right_side {
+          margin: 0;
+
+          p {
+            text-align: center;
+            margin: 10px 10px;
+          }
+        }
+      }
+    }
+  }
+  .how_repay {
+    .how_repay__right {
+      max-width: 150px;
+      right: -90px;
+      bottom: -120px;
+      z-index: 0;
+    }
+
+    .how_repay__left {
+      max-width: 150px;
+      left: -90px;
+      bottom: -120px;
+      z-index: 0;
+    }
+  }
+  .c_o_card {
+    padding: 50px 0;
+
+    .card_top__vinny {
+      left: -30px;
+      max-width: 100px;
+    }
+
+    .card_bottom__pig {
+      left: -20px;
+      max-width: 100px;
+    }
+
+    .c_o_phone_bg {
+      left: -20px;
+    }
+
+    .card_top__sova {
+      right: -30px;
+      max-width: 100px;
+    }
+
+    .card_bottom__vinny {
+      right: -30px;
+      max-width: 100px;
+    }
+  }
+  .how_take {
+    padding: 50px 0;
+  }
+  .main_about {
+    .main_about__wrap {
+      padding: 0;
+    }
+
+    .about_img__right {
+      right: -30%;
+      max-width: 150px;
+      z-index: 0;
+    }
+
+    .about_img__left {
+      left: -30%;
+      max-width: 150px;
+      z-index: 0;
+    }
+  }
+  .credits_type {
+    .bottom_info {
+      padding: 40px 20px;
+    }
+
+    .tabs_box {
+      flex-wrap: wrap;
+      flex-direction: column;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      padding: 0 0;
+      border-radius: 16px;
+    }
+
+    .slider_box {
+      .slider_elem {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+
+        .left_side__info {
+          margin-right: 20px;
+          text-align: left;
+        }
+
+        .right_side__info {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  .why_honey {
+    .sova_why {
+      top: 18%;
+      max-width: 200px;
+      left: -20%;
+    }
+
+    .viny_why {
+      top: initial;
+      bottom: 0;
+      max-width: 200px;
+      right: -20%;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .map_elem {
+    .map_elem_email {
+      a {
+        font-size: 16px;
+      }
+    }
+
+    .map_elem_phone {
+      .map_elem_phone_list {
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .credit_info {
+    background: #fff;
+
+    .credit_info_box {
+      .cls_box {
+        top: -20px;
+      }
+
+      .title {
+        margin-bottom: 15px;
+      }
+
+      .c_i_b_wrap {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .c_i_b_w_right {
+          text-align: center;
+          max-width: inherit;
+          align-items: center;
+          margin-bottom: 15px;
+          flex-direction: row;
+          flex-wrap: wrap;
+
+          &:last-child {
+            margin-bottom: 15px;
+          }
+
+          p {
+            flex: 1 1 40%;
+
+            span {
+              font-size: 18px;
+            }
+          }
+        }
+
+        form {
+          input {
+            margin-bottom: 10px;
+            height: 40px;
+          }
+
+          .btn {
+            height: 40px;
+          }
+        }
+
+        .c_i_b_w_left {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .why_honey {
+    .why_honey__box {
+      .honey_box__elem {
+        p {
+          margin-right: 0;
+          width: 100%;
+          z-index: 10;
+          position: relative;
+        }
+      }
+    }
+  }
+  .take_money {
+    .take_top__right {
+      min-width: 95%;
+      max-width: inherit;
+    }
+  }
+  .take_money {
+    .take_top__left {
+      flex: 1 1 100%;
+      width: 100%;
+    }
+  }
+  .how_repay {
+    .h_r_money_bg {
+      left: -20%;
+    }
+
+    .how_repay__left {
+      left: -36%;
+    }
+
+    .h_r_card_bg {
+      right: -10%;
+    }
+  }
+  .pay_cash {
+    .p_c_wasp_bg_t {
+      left: -26%;
+      top: 30px;
+    }
+  }
+  .c_o_card {
+    .c_o_wasp_bg_f {
+      left: -20%;
+    }
+
+    .c_o_wasp_bg_s {
+      left: 15px;
+    }
+
+    .c_o_wasp_bg_t {
+      right: -25%;
+    }
+  }
+  .main_about {
+    .main_about__bottom {
+      .title {
+        font-size: 18px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .why_honey {
+    .desc {
+      margin-bottom: 20px;
+    }
+  }.calc_title_max{
+       display: inline-block;
+     }
+  .how_repay {
+    .how_repay__wrap {
+      .title {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .credits_type {
+    .tabs_box {
+      margin-bottom: 20px;
+    }
+
+    .title {
+      margin-bottom: 15px;
+    }
+
+    .info_box {
+      .title {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .map_elem {
+    padding: 20px 10px;
+  }
+  .pay_terminal {
+    .p_t_money_bg {
+      left: -20%;
+    }
+  }
+  .credits_type {
+    .slider_box {
+      .slider_elem {
+        .left_side__info {
+          margin-right: 0;
+
+          p {
+            margin-right: 0;
+            margin-bottom: 0;
+          }
+        }
+
+        .right_side__info {
+          margin-right: 0;
+
+          p {
+            margin-right: 0;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .contacts {
+    padding: 50px 0;
+
+    .contact_phone {
+      .title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+    }
+
+    .contacts_map {
+      .title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+
+      .desc {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+
+      .c_money_bg {
+        left: 0;
+        max-width: 60px;
+        width: 100%;
+        height: auto;
+      }
+
+      .c_phone_bg {
+        max-width: 60px;
+        width: 100%;
+        height: auto;
+      }
+
+      .c_card_bg {
+        max-width: 60px;
+        width: 100%;
+        height: auto;
+      }
+
+      .c_time_bg {
+        max-width: 60px;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .how_repay {
+    padding: 50px 0;
+
+    .h_r_card_bg {
+      left: inherit;
+      right: -10%;
+    }
+
+    .how_repay__wrap {
+      .title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+
+      .title_small {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+    }
+  }
+  .pay_terminal {
+    .top_terminal {
+      .title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
+    }
+
+    .bottom_terminal {
+      .title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+    }
+  }
+  .pay_cash {
+    padding: 50px 0;
+
+    .p_c_phone_bg {
+      right: -10%;
+    }
+
+    .pay_cash__wrap {
+      .right_side {
+        padding-left: 0;
+
+        .title {
+          font-size: $mobileTitleSize;
+          line-height: inherit;
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+
+        }
+      }
+    }
+  }
+
+  .how_take {
+    .top_take__box {
+      .title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+    }
+
+    .bottom_take__box {
+      .take_box__info {
+        .elem {
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+
+        img {
+          top: -4%;
+        }
+      }
+
+      .title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+    }
+  }
+  .c_o_card {
+    .c_o_money_t_bg {
+      right: -14%;
+    }
+
+    .c_o_c__steps {
+      padding: 0 10px;
+    }
+
+    .c_o_time_bg {
+      left: -10%;
+    }
+
+    .c_o_phone_bg {
+      left: -20%;
+    }
+
+    .c_o_calendar_bg {
+      left: -5%;
+      right: inherit;
+    }
+
+    .c_o_pig_bg {
+      right: -20%;
+    }
+
+    .c_o_money_bg {
+      right: -10%;
+    }
+
+    .card_top__vinny {
+      left: -20%;
+    }
+
+    .card_bottom__vinny {
+      right: -40%;
+    }
+
+    .card_bottom__pig {
+      left: -40%;
+    }
+
+    .card_top__sova {
+      right: -12%;
+    }
+
+    .title {
+      font-size: $mobileTitleSize;
+      line-height: inherit;
+    }
+  }
+  .take_money {
+    .take_bottom__box {
+      .take_bottom__elem {
+        width: 96%;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        align-items: center;
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+
+    .scroll {
+      top: 200px;
+    }
+
+    .take_top__img {
+      top: 40%;
+      left: inherit;
+      right: -40%;
+    }
+  }
+  .popup {
+    background: #fff;
+
+    .popup_box {
+      padding: 30px 10px;
+      border-radius: 0;
+
+      .popup_cls {
+        top: 10px;
+        right: 10px;
+      }
+    }
+  }
+  .take_money {
+    .take_bottom {
+      padding-top: 0;
+
+      .title {
+        font-size: $mobileTitleSize;
+      }
+    }
+
+    .container {
+      padding: 0 0;
+    }
+
+    .take_top__right {
+      .calc_box {
+        padding: 40px 20px 0 40px;
+
+        .title {
+          font-size: $mobileTitleSize;
+          margin-bottom: 10px;
+        }
+
+        .desc {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .take_top__left {
+      .offer_title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+        margin-top: 30px;
+      }
+
+      p {
+        width: 90%;
+        margin: 30px auto;
+      }
+    }
+  }
+  .why_honey {
+    padding: 50px 0;
+
+    .why_honey__box {
+      .honey_box__elem {
+        max-width: inherit;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .sova_why {
+      top: 12%;
+      left: -10%;
+      max-width: 120px;
+    }
+
+    .viny_why {
+      right: -36%;
+    }
+
+    .title {
+      font-size: $mobileTitleSize;
+      line-height: inherit;
+    }
+
+    .w_money_bg {
+      right: -25%;
+    }
+
+    .w_phone_bg {
+      top: 30%;
+      left: 0;
+    }
+  }
+  .main_about {
+    padding: 140px 0 50px 0;
+
+    .a_m_wasp_bg_f {
+      left: -30%;
+    }
+
+    .a_m_wasp_bg_s {
+      left: 0;
+    }
+
+    .a_m_wasp_bg_t {
+      right: -60%;
+    }
+
+    .a_m_time_bg {
+      top: -5%;
+      z-index: 1;
+      left: 0;
+    }
+
+    .a_m_money_bg {
+      right: 0;
+      top: 0;
+    }
+
+    .main_about__bottom {
+      .title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+        margin-top: 20px;
+      }
+
+      p {
+        z-index: 5;
+        position: relative;
+      }
+    }
+
+    .about_img__left {
+      left: -50%;
+    }
+
+    .about_img__right {
+      right: -50%;
+    }
+
+    .a_m_pig_bg {
+      z-index: 1;
+      right: -20%;
+    }
+
+    .a_m_phone_bg {
+      z-index: 1;
+      left: -20%;
+    }
+
+    .main_about__top {
+      .desc {
+        font-weight: 400;
+        font-size: 14px;
+      }
+
+      .title {
+        font-size: $mobileTitleSize;
+      }
+    }
+  }
+  .credits_type {
+    padding: 50px 0 220px 0;
+
+    .bottom_info {
+      .title {
+        font-size: $mobileTitleSize;
+        line-height: inherit;
+      }
+    }
+
+    .title {
+      font-size: $mobileTitleSize;
+    }
+
+    .btn_slider {
+      display: none;
+    }
+
+    .slider_box {
+      .slider_elem {
+        padding: 0 0;
+      }
+    }
+
+    .c_t_time_bg {
+      left: 0;
+    }
+  }
+  .take_money {
+    padding: 20px 0;
+  }
+  .header_wrap {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    justify-content: center;
+
+    .header_logo {
+      margin-right: 0;
+    }
+
+    .call {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      text-align: center;
+
+      a {
+        margin-right: 10px;
+      }
+    }
+
+    .header_left {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      -webkit-box-orient: vertical;
+    }
+
+    .header_right {
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      width: 100%;
+      max-width: 320px;
+      flex: 1 1 100%;
+
+      .log_in {
+        margin-left: 0;
+        margin-bottom: 0;
+      }
+
+      .burger_menu {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+.header_main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  background: transparent;
+  transition: background $time;
+
+  &.active, &.scroll {
+    background: #252422;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 1210px;
+    margin: 0 0 0 84px;
+  }
+
+
+  .arrow {
+    padding: 0 15px;
+    width: 49px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: background $time, width $time;
+    position: relative;
+    overflow: hidden;
+    span {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      left: 45px;
+      font-family: $gilroy;
+      transition: opacity $time .0s;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    &:hover {
+      width: 160px;
+      span {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity $time .4s;
+      }
+    }
+    &:hover {
+      background: $colorGreen;
+      svg {
+        left: -3px;
+      }
+    }
+    svg {
+      width: 100%;
+      max-width: 17px;
+      height: auto;
+      left: 0;
+      transform: rotate(-135deg);
+      transition: left $time;
+      position: relative;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+
+  a {
+    display: inline-block;
+    color: #fff;
+    font: 300 20px/1 $gilroy;
+    margin: 0 14px 8px;
+    position: relative;
+
+    &::before {
+      @include before(15px, 15px, $colorGreen);
+      left: 50%;
+      bottom: -3px;
+      border-radius: 50%;
+      transform: translate(-50%);
+      transition: $time;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    &.active, &:hover {
+      color: #fff;
+      font-weight: 700;
+
+      &::before {
+        visibility: visible;
+        width: 100%;
+        opacity: 1;
+        height: 1px;
+        bottom: -10px;
+      }
+    }
+  }
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  line-height: 1;
+
+  img {
+    width: 100px;
+    height: auto;
+    line-height: 1;
+  }
+}
+
+.burger_menu {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility $time, opacity $time;
+
+  i {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: $colorGreen;
+    top: 0;
+    left: 0;
+    transition: transform $time, width $time, top $time;
+
+    &:nth-child(2) {
+      top: 8px;
+    }
+
+    &:nth-child(3) {
+      top: 16px;
+    }
+  }
+
+  &.active {
+    i {
+      transform: rotate(135deg);
+      top: 8px;
+
+      &:nth-child(2) {
+        width: 0;
+        transform: rotate(0);
+        top: 8px;
+      }
+
+      &:nth-child(3) {
+        transform: rotate(-135deg);
+        top: 8px;
+      }
+    }
+  }
+}

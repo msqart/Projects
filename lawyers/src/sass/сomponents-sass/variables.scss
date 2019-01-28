@@ -1,0 +1,28 @@
+$urlPath: "../../";
+
+$breakMobile: 768px;
+$breakTablet: 1024px;
+
+$devices: not-desktop phablets phones-tablets;
+$devices: not-desktop phablets phones-tablets;
+
+/*color*/
+$black: #313131;
+$dark: #000;
+$red: #fc8a5c;
+$white: #fff;
+$btn: #fc8a5c;
+$btn_hover: #fd9b74;
+$color_hover: #db9f8b;
+$colorSlickButton: #fc8a5c;
+$colorGrey: #0f0f0f;
+$bgInput: #fff;
+$borderInput: #000003;
+$bgBtn: #000;
+/*fonts*/
+$fontLato: "Lato", sans-serif;
+$fontPhilosopher: "Philosopher";
+$fontSvg: "fontello";
+$fontTitleSize: 80px;
+/*effects*/
+$time: .4s ease-out;

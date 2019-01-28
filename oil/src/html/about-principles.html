@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Oil | О компании</title>
+    <link media="all" type="text/css" rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+<div class="main_wrap article">
+    <div class="article_bg"><img src="img/article_bg.png" alt=""></div>
+    <div class="main_content_wrap">
+        <!--BEGIN HEADER-->
+        @@include('./templates/header.html')
+        <!--END HEADER-->
+        <div class="page_img">
+            <h4 class="desc">О компании</h4>
+            <img src="img/article_img.jpg" alt="">
+        </div>
+
+        <section class="article_box">
+            <div class="container">
+                <div class="article_box_left">
+                    <div class="a_b_l_category_list">
+
+                        <div class="a_b_l_item active">
+                            <div class="a_b_l_parent">
+                                <p>О компании</p>
+                            </div>
+                            <div class="a_b_l_child">
+                                <a href="about-services.html">Наши услуги</a>
+                                <a href="about-principles.html" class="active">Наши принципы</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_box_right">
+                    <div class="bread">
+                        <a href="index.html">Главная</a>
+                        <a href="about.html">О компании</a>
+                        <a href="#">Принципы</a>
+                    </div>
+                    <div class="a_b_r_box">
+                        <div class="title">Доверие к нам очень важно для нас!
+                        </div>
+                        <p>Надёжные и честные отношения – основа для взаимовыгодного и долгосрочного сотрудничества с
+                            нашими партнёрами.
+                        </p>
+                        <ul>
+                            <li>Мы ответственно выполняем свои обязательства и требуем этого от наших партнёров.</li>
+                            <li>Мы не предлагаем и не принимаем неофициальных вознаграждений, тем самым, исключая
+                                коррупционную составляющую стоимости продукта.
+                            </li>
+                        </ul>
+                        <p>Открытое и честное сотрудничество открывает нам дорогу в будущее!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--BEGIN FOOTER-->
+        @@include('./templates/footer.html')
+        <!--END FOOTER-->
+    </div>
+</div>
+</body>
+</html>

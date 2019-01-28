@@ -1,0 +1,118 @@
+/*_Font_*/
+@font-face {
+  font-family: 'Lato';
+  src: urlCss('fonts/Lato-Bold/lato-bold.eot');
+  src: urlCss('fonts/Lato-Bold/lato-bold.eot') format('embedded-opentype'),
+  urlCss('fonts/Lato-Bold/lato-bold.woff2') format('woff2'),
+  urlCss('fonts/Lato-Bold/lato-bold.woff') format('woff'),
+  urlCss('fonts/Lato-Bold/lato-bold.ttf') format('truetype'),
+  urlCss('fonts/Lato-Bold/lato-bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: urlCss('fonts/Lato-Light/lato-light.eot');
+  src: urlCss('fonts/Lato-Light/lato-light.eot') format('embedded-opentype'),
+  urlCss('fonts/Lato-Light/lato-light.woff2') format('woff2'),
+  urlCss('fonts/Lato-Light/lato-light.woff') format('woff'),
+  urlCss('fonts/Lato-Light/lato-light.ttf') format('truetype'),
+  urlCss('fonts/Lato-Light/lato-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: urlCss('fonts/Lato-Regular/lato-regular.eot');
+  src: urlCss('fonts/Lato-Regular/lato-regular.eot') format('embedded-opentype'),
+  urlCss('fonts/Lato-Regular/lato-regular.woff2') format('woff2'),
+  urlCss('fonts/Lato-Regular/lato-regular.woff') format('woff'),
+  urlCss('fonts/Lato-Regular/lato-regular.ttf') format('truetype'),
+  urlCss('fonts/Lato-Regular/lato-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: urlCss('fonts/Montserrat-Regular/montserrat-regular.eot');
+  src: urlCss('fonts/Montserrat-Regular/montserrat-regular.eot') format('embedded-opentype'),
+  urlCss('fonts/Montserrat-Regular/montserrat-regular.woff2') format('woff2'),
+  urlCss('fonts/Montserrat-Regular/montserrat-regular.woff') format('woff'),
+  urlCss('fonts/Montserrat-Regular/montserrat-regular.ttf') format('truetype'),
+  urlCss('fonts/Montserrat-Regular/montserrat-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: urlCss('fonts/Montserrat-Light/montserrat-light.eot');
+  src: urlCss('fonts/Montserrat-Light/montserrat-light.eot') format('embedded-opentype'),
+  urlCss('fonts/Montserrat-Light/montserrat-light.woff2') format('woff2'),
+  urlCss('fonts/Montserrat-Light/montserrat-light.woff') format('woff'),
+  urlCss('fonts/Montserrat-Light/montserrat-light.ttf') format('truetype'),
+  urlCss('fonts/Montserrat-Light/montserrat-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: urlCss('fonts/Montserrat-Bold/montserrat-bold.eot');
+  src: urlCss('fonts/Montserrat-Bold/montserrat-bold.eot') format('embedded-opentype'),
+  urlCss('fonts/Montserrat-Bold/montserrat-bold.woff2') format('woff2'),
+  urlCss('fonts/Montserrat-Bold/montserrat-bold.woff') format('woff'),
+  urlCss('fonts/Montserrat-Bold/montserrat-bold.ttf') format('truetype'),
+  urlCss('fonts/Montserrat-Bold/montserrat-bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'fontello';
+  src: urlCss('fonts/fontello/fontello.eot?21752383');
+  src: urlCss('fonts/fontello/fontello.eot?21752383#iefix') format('embedded-opentype'),
+  urlCss('fonts/fontello/fontello.woff2?21752383') format('woff2'),
+  urlCss('fonts/fontello/fontello.woff?21752383') format('woff'),
+  urlCss('fonts/fontello/fontello.ttf?21752383') format('truetype'),
+  urlCss('fonts/fontello/fontello.svg?21752383#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check_li:before { content: '\e800'; } /* '' */
+.icon-complete_visa:before { content: '\e801'; } /* '' */
+.icon-fb:before { content: '\e802'; } /* '' */
+.icon-geo:before { content: '\e803'; } /* '' */
+.icon-inst:before { content: '\e804'; } /* '' */
+.icon-journalist:before { content: '\e805'; } /* '' */
+.icon-mail:before { content: '\e806'; } /* '' */
+.icon-married:before { content: '\e807'; } /* '' */
+.icon-religion:before { content: '\e808'; } /* '' */
+.icon-time:before { content: '\e809'; } /* '' */
+.icon-transit_visa:before { content: '\e80a'; } /* '' */
+.icon-tur_visa:before { content: '\e80b'; } /* '' */
+.icon-visa_for_bussines:before { content: '\e80c'; } /* '' */
+.icon-visa_for_investor:before { content: '\e80d'; } /* '' */
+.icon-visa_for_student:before { content: '\e80e'; } /* '' */
+.icon-work_visa:before { content: '\e80f'; } /* '' */
+.icon-arrow:before { content: '\e810'; } /* '' */

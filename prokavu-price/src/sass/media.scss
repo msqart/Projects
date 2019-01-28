@@ -1,0 +1,418 @@
+@media only screen and (orientation: portrait) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  html {
+    font-size: 16px;
+  }
+  .header_main {
+    .container {
+      margin: 0;
+    }
+  }
+  .coffee_machine {
+    .coffee_machine_slider {
+      .c_m_s_image {
+        .coffee_controls {
+          transform: initial;
+        }
+      }
+    }
+  }
+  .we_offer_list {
+    margin: initial;
+  }
+  .header_main {
+    .container {
+      justify-content: space-between;
+    }
+
+    .arrow {
+      margin-right: 50px;
+    }
+  }
+  .nav {
+    a {
+      margin: 0 20px 0 0;
+    }
+  }
+  .section_text {
+    .section_text_img {
+      left: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .footer_main {
+    .footer_left_bottom {
+      left: 5px;
+    }
+  }
+
+  .section_text {
+    .section_text_img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-width: 300px;
+    }
+  }
+
+  .sorts {
+    .sorts_img {
+      opacity: 0;
+    }
+
+    .sorts_slider {
+      padding: 50px 10px 50px 20px;
+      flex-direction: column;
+    }
+
+    .s_s_left {
+      flex-direction: row;
+
+      p {
+        color: $colorDark;
+      }
+    }
+
+    .s_s_active {
+      justify-content: space-around;
+
+      .s_s_a_img {
+        max-width: 200px;
+
+        img {
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .coffee_machine {
+    .coffee_machine_box {
+      padding: 50px 5px;
+
+      .title_m {
+        display: block;
+      }
+    }
+
+    .coffee_machine_slider {
+      flex-direction: column;
+      align-items: center;
+
+      .c_m_s_image {
+        margin-right: 0;
+        margin-bottom: 60px;
+      }
+
+      .c_m_s_text {
+        .title {
+          display: none;
+        }
+      }
+    }
+  }
+  .footer_main {
+    .footer_left_bottom {
+      padding: 54px 20px;
+    }
+  }
+  .section_text {
+    .section_text_img {
+      position: absolute;
+    }
+  }
+  .we_offer_list {
+    .we_offer_elem {
+      flex: 1 1 50%;
+    }
+  }
+  .we_offer_elem {
+    margin: 30px 30px;
+    min-width: 300px;
+  }
+  .we_offer_list {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .burger_menu {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    transition: top $time;
+
+    &.active {
+      top: 100px;
+    }
+
+    a {
+      margin: 20px 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .coffee_machine .coffee_machine_slider .c_m_s_t_elem .drinks{
+    margin-bottom: 40px;
+  }
+  .footer_main {
+    .footer_bottom {
+      .container {
+        flex-direction: column;
+
+        p {
+          margin: 30px 0;
+
+          &:first-child {
+            margin-top: 0;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    .footer_left {
+      max-width: initial;
+      min-width: 100%;
+    }
+
+    .footer_right {
+      bottom: -100px;
+    }
+
+    .footer_left_bottom {
+      margin-right: 5px;
+
+      .f_l_b_i_elem {
+        margin: 20px 10px;
+
+        &:after {
+          display: none;
+        }
+
+        &:last-child {
+          margin: 20px 10px;
+        }
+      }
+    }
+  }
+  .gallery {
+    .gallery_controls {
+      top: -50px;
+    }
+
+    .title_block {
+      margin-bottom: 100px !important;
+    }
+
+    .gallery_elem_left {
+      height: 300px;
+      margin-bottom: 10px;
+    }
+
+    .gallery_elem_right {
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      max-width: initial;
+      width: 100%;
+
+      .elem_right {
+        flex: 1 1 40%;
+        width: 49.5%;
+        max-width: initial;
+        margin-bottom: 0;
+        margin-right: 5px;
+        height: 300px;
+        overflow: hidden;
+
+        &:nth-child(2) {
+          margin-left: 5px;
+          height: 300px;
+        }
+      }
+    }
+
+    .gallery_wrap {
+      flex-direction: column;
+    }
+  }
+  .section_text {
+    .section_text_content {
+      margin-left: 5px;
+    }
+  }
+  .top_section {
+    height: 100vh;
+  }
+  body {
+    padding-top: 100vh;
+  }
+  .sorts {
+    .sorts_slider {
+      padding: 50px 0;
+    }
+
+    .s_s_active {
+      flex-direction: column;
+      align-items: center;
+
+      .s_s_a_img {
+        img {
+          transform: translate(0, 0);
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .popup_img {
+    .popup_wrap {
+      .cls_btn {
+        top: initial;
+        bottom: 0;
+      }
+    }
+  }
+
+  .footer_main {
+    .footer_left {
+      padding: 75px 0 163px 0;
+    }
+
+    .footer_left_bottom {
+      padding: 15px 5px;
+
+      .f_l_b_i_elem {
+        .icon {
+          svg {
+            margin-right: 10px;
+          }
+        }
+
+        a {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .top_section {
+    .top_section_text {
+      blockquote {
+        font-size: 20px;
+        font-weight: 400;
+      }
+    }
+  }
+  .title_block, .title_m {
+    font-size: 34px !important;
+  }
+  .title_m {
+    line-height: initial !important;
+  }
+  .coffee_machine .coffee_machine_slider .c_m_s_t_elem .drinks .drinks_list img {
+    margin-right: 15px;
+  }
+  .we_offer_elem {
+    .w_o_e_title {
+      font-size: 24px;
+    }
+  }
+  .section_text {
+    .s_t_c_title {
+      font-size: 34px !important;
+      margin-bottom: 20px;
+    }
+  }
+  .sorts {
+    .s_s_left {
+      p {
+        font-size: 40px;
+      }
+    }
+  }
+  .popup {
+    .title {
+      font-size: 26px !important;
+      line-height: initial !important;
+    }
+  }
+  .section_text {
+    .s_t_c_title {
+      line-height: 50px;
+    }
+  }
+  .gallery {
+    .gallery_elem_left {
+      height: 200px;
+    }
+
+    .gallery_elem_right {
+      flex-direction: column;
+
+      .elem_right {
+        width: 100%;
+        max-width: initial;
+        margin-right: 0;
+        margin-bottom: 10px;
+        height: 200px;
+
+        &:nth-child(2) {
+          margin-left: 0;
+          height: 200px;
+        }
+      }
+    }
+  }
+  .title_block {
+    margin-bottom: 50px !important;
+  }
+  .we_offer_list {
+    .we_offer_elem {
+      margin: 20px 0;
+    }
+  }
+  .section_text {
+    min-height: initial;
+
+    .section_text_content {
+      padding: 190px 0 40px 0;
+    }
+  }
+  .we_offer, .gallery {
+    padding: 50px 0;
+  }
+  .footer_main {
+    .footer_left {
+      padding-top: 0;
+    }
+  }
+}

@@ -1,0 +1,671 @@
+@media only screen and (max-width: 1360px) {
+
+}
+
+@media only screen and (max-width: 1170px) {
+  html {
+    font-size: 16px;
+  }
+  .popup_wrap {
+    max-width: 450px;
+    input {
+      height: 60px;
+    }
+  }
+  .review_screen .slider_box .slider__text {
+    font-size: 14px;
+    max-height: 250px;
+  }
+  .third_screen__wrap p {
+    text-align: left;
+  }
+  .include_screen .include_grid {
+    z-index: -1;
+  }
+  .first_screen {
+    min-height: initial;
+  }
+  .first_screen__bg {
+    width: 40%;
+  }
+  .header_main__phone a {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .header_main__phone {
+    padding: 0 30px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .header_main__phone a:nth-child(3) {
+    color: #1f1f1f;
+  }
+  .header_main__button {
+    height: 50px;
+  }
+  .btn {
+    font: 700 16px/1 $fontMontserrat;
+    max-width: 250px;
+  }
+  .first_screen__gift_btn {
+    max-width: 350px;
+  }
+  .third_screen .bg_bottom img {
+    width: initial;
+  }
+  .third_screen__bg .bg_main {
+    width: 100%;
+    max-width: initial;
+    left: -25%;
+    height: initial;
+    top: 20%;
+  }
+  .third_screen__bg .bg_img {
+    display: none;
+  }
+  .third_screen .bg_bottom {
+    bottom: 0;
+  }
+
+  .third_screen__wrap {
+    top: 500px;
+    padding: 0 50px;
+    width: 90%;
+    max-width: initial;
+  }
+  .third_screen__bg {
+    background: #4c3661;
+  }
+  .third_screen {
+    margin-top: -200px;
+    top: initial;
+  }
+  .second_screen__top {
+    padding-left: 0;
+  }
+  .second_screen__right {
+    z-index: 5;
+  }
+  .btn_form {
+    max-width: 483px;
+  }
+  .btn_needvisa {
+    max-width: 467px;
+  }
+  .btn_callus {
+    max-width: 550px;
+  }
+  .takevisa_screen .circle__v {
+    right: -80%;
+  }
+  .takevisa_screen .circle__fo {
+    right: 10%;
+  }
+  .takevisa_screen .circle__t {
+    left: 10%;
+  }
+  .review_screen .slider_wrap {
+    margin-left: 0;
+  }
+  .callus_screen {
+    padding-top: 150px;
+    min-height: 700px;
+  }
+  .callus_bg {
+    width: 130%;
+  }
+  .review_screen .title_review {
+    margin-left: 0;
+    text-align: center;
+  }
+  .review_screen .slider_btn__wrap {
+    margin: 0 auto 50px;
+    justify-content: center;
+  }
+  .include_screen .title_include {
+    margin-left: 0;
+  }
+  .include_screen .top__wrap {
+    padding-left: 0;
+  }
+  .how_screen .how_el {
+    width: 50%;
+  }
+  .how_screen .how_bg__wrap .bg_top img {
+    width: initial;
+  }
+  .how_screen {
+    padding-top: 150px;
+  }
+  .needvisa_screen {
+    padding-top: 150px;
+  }
+  .how_screen .how_bg__wrap .bg_top {
+    top: -9%;
+  }
+  .how_screen .how_bg__wrap .bg_main {
+    top: 650px;
+  }
+  .how_screen .how_bg__wrap .bg_main img {
+    height: 100%;
+  }
+  .review_screen .review_bg {
+    left: -700px;
+  }
+  .needvisa_screen .box_el {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .second_screen__bottom_circle {
+    z-index: -1;
+  }
+  .how_screen .how_bottom__wrap {
+    left: 0;
+    right: initial;
+  }
+  .include_screen .top__wrap {
+    flex-direction: column;
+  }
+  .include_screen .title_left {
+    margin-bottom: 30px;
+  }
+  .include_screen .mid_box {
+    margin-top: 50px;
+  }
+  .include_screen .mid_box p {
+    margin-bottom: 50px;
+  }
+  .include_screen .main__wrap {
+    margin-top: 50px;
+  }
+  .include_screen {
+    padding-top: 150px;
+  }
+  .include_screen .test_wrap {
+    padding: 50px 50px;
+    margin-bottom: 20px;
+  }
+  .include_screen .circle_bg__wrap {
+    bottom: 60px;
+  }
+  .include_screen .advantage_wrap {
+    padding-left: 0;
+  }
+  .call_us__info {
+    margin-left: 0;
+  }
+  .callus_bg {
+    right: -20%;
+    left: initial;
+    width: 180%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+
+  .first_screen__bg {
+    width: 80%;
+    right: -40%;
+    top: -30%;
+    opacity: .5;
+  }
+  .header_main__wrap {
+    align-items: initial;
+  }
+  .first_screen__wrap {
+    margin-top: 50px;
+  }
+  .header_main__button {
+    @include button($btnColor);
+    color: $white;
+    transition: background $time, color $time .2s;
+    border: none;
+    &:hover {
+      background: $white;
+      color: $btnColor;
+    }
+  }
+  .second_screen__top {
+    flex-direction: column;
+  }
+  .second_screen__left .left__box {
+    max-width: initial;
+  }
+  .second_screen__left {
+    margin-right: 0;
+    z-index: 5;
+  }
+  .bg_grid {
+    right: 0;
+    z-index: 4;
+  }
+  .second_screen__right {
+    margin-top: 80px;
+    margin-left: 100px;
+  }
+  .form_grid {
+    z-index: -1;
+  }
+  .title {
+    line-height: initial;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .third_screen {
+    padding: 200px 0;
+  }
+  .form_screen {
+    padding-top: 100px;
+  }
+  .review_screen .slider_item {
+    max-width: initial;
+  }
+  .needvisa_screen .box_el {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .third_screen__wrap {
+    top: 300px;
+  }
+  .header_main__left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .header_main__phone {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .header_main__phone a {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .header_main__logo {
+    margin-bottom: 15px;
+  }
+  .third_screen__wrap {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .review_screen {
+    padding-top: 0;
+  }
+  .footer_right {
+    padding-left: 60px;
+  }
+  .include_screen .advantage_wrap .advantage_box {
+    padding: 30px 20px;
+  }
+  .include_screen .right_box {
+    padding-top: 40px;
+  }
+  .include_screen .mid_box {
+    width: 100%;
+  }
+  .include_screen .top__wrap {
+    text-align: center;
+  }
+  .include_screen .left_box {
+    max-width: initial;
+  }
+  .include_screen .title_include {
+    text-align: center;
+  }
+  .include_screen .test_wrap .title_test {
+    color: $dark-blue;
+  }
+  .include_screen .test_wrap p {
+    color: $black;
+  }
+  .include_screen .advantage_wrap .title_advantage {
+    color: $dark-blue;
+    text-align: center;
+  }
+  .include_screen .circle_bg__wrap {
+    width: 1000px;
+    height: 1000px;
+    bottom: -50%;
+    left: -50%;
+  }
+  .include_screen .advantage_wrap {
+    margin-top: 30px;
+  }
+  .include_screen .include_bg__main {
+    display: none;
+  }
+  .include_screen .include_bg__main_bottom {
+    display: none;
+  }
+  .include_screen .include_bg__bottom {
+    display: none;
+  }
+  footer .footer_white .footer_row {
+    flex-wrap: wrap;
+  }
+  .include_screen .main__wrap .tabs .tab span {
+    font-size: 18px;
+  }
+  .include_screen .include_grid_white {
+    right: -80px;
+  }
+  .include_screen .content_box {
+    padding: 50px 50px;
+  }
+  .how_screen .bottom_box .title_box {
+    margin-left: 0;
+    max-width: initial;
+    text-align: center;
+  }
+  .how_screen {
+    min-height: 2150px;
+  }
+  .how_screen .bottom_box {
+    padding: 50px 35px;
+  }
+  .how_screen .title {
+    margin-bottom: 50px;
+  }
+  .how_screen .how_el {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .how_screen .number {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+  }
+  .how_screen .number:before {
+    font-size: 26px;
+    bottom: 0;
+  }
+  .needvisa_screen .needvisa_box {
+    justify-content: center;
+  }
+  .takevisa_screen .circle__t {
+    left: -30%;
+  }
+  .takevisa_screen .circle__fo {
+    right: 40%;
+  }
+  .takevisa_screen .circle__v {
+    right: -100%;
+  }
+  .needvisa_screen .box_el {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .needvisa_screen {
+    padding-top: 0;
+  }
+  .takevisa_screen {
+    padding-top: 50px;
+  }
+  .takevisa_screen .takevisa_box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .second_screen__bottom_circle {
+    left: -10%;
+  }
+  .first_screen__gift {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .first_screen__gift p {
+    margin-bottom: 40px;
+  }
+  .first_screen__offer p.big {
+    font-size: 55px;
+    line-height: initial;
+  }
+  .first_screen__offer p.big span {
+    font-size: 55px;
+    line-height: initial;
+  }
+  .first_screen__offer p.small {
+    font-size: 30px;
+    line-height: initial;
+  }
+  .callus_bg img {
+    width: initial;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .popup_test .complete {
+    width: 100%;
+    .title_test {
+      font-size: 16px;
+    }
+  }
+  .popup_test {
+    padding: 10px 10px;
+  }
+  .popup_test .title_popup {
+    width: inherit;
+  }
+  .popup_wrap p {
+    padding: 10px 0;
+  }
+  .popup_test .step {
+    width: inherit;
+  }
+  .header_main__phone a {
+    margin-right: 0;
+  }
+  .tab {
+    span {
+      font-size: 12px !important;
+    }
+    &.active {
+      span {
+        font-size: 12px !important;
+      }
+    }
+  }
+  .popup {
+    font-size: 16px;
+  }
+  .popup_wrap .popup_cls {
+    top: 20px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+  }
+  .popup_wrap form {
+    width: 95%;
+  }
+  .call_us__info p {
+    font-size: 16px;
+  }
+  .include_screen {
+    padding-bottom: 150px;
+  }
+  .include_screen .test_wrap {
+    padding: 15px 15px;
+  }
+  .takevisa_screen {
+    padding-bottom: 230px;
+  }
+  .review_screen .slider_box {
+    padding: 40px 40px;
+  }
+  #map {
+    max-height: 600px;
+  }
+  .include_screen .advantage_wrap .advantage_box li {
+    font-size: 16px;
+    padding-left: 40px;
+  }
+  .include_screen .advantage_wrap .advantage_box li:before {
+    margin-left: -40px;
+  }
+  .include_screen .advantage_wrap .advantage_box p {
+    font-size: 16px;
+    padding-left: 0;
+  }
+  .include_screen .advantage_wrap .title_advantage {
+    font-size: 36px;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .include_screen .right_box .title_right {
+    font-size: 36px;
+  }
+  .include_screen .title_left {
+    font-size: 36px;
+  }
+  .include_screen .left_box {
+    margin-top: 30px;
+  }
+  .include_screen .mid_box p {
+    margin-bottom: 0;
+  }
+  .include_screen .content_box li:before {
+    margin-left: -20px;
+  }
+  .include_screen .content_box li {
+    padding-left: 0;
+    font-size: 16px;
+  }
+  .include_screen .main__wrap .tabs .tab {
+    padding: 0 10px;
+  }
+  .include_screen .left_box p {
+    font-size: 18px;
+    line-height: initial;
+  }
+  .include_screen .right_box {
+    padding: 50px 15px;
+  }
+  footer .footer_left p {
+    font-size: 16px;
+  }
+  footer .footer_right p {
+    font-size: 16px;
+  }
+  .how_screen {
+    min-height: 1900px;
+  }
+  .how_screen .how_bottom__wrap {
+    bottom: initial;
+    margin-top: 100px;
+  }
+  .how_screen .how_bg__wrap .bg_main {
+    display: none;
+  }
+  .how_screen .bottom_box .title_box {
+    font-size: 22px;
+  }
+  .how_screen .bg_circle {
+    width: 400px;
+    height: 400px;
+  }
+  .how_screen .bottom_box li {
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: initial;
+  }
+  .how_screen .bottom_box li:before {
+    margin-left: -30px;
+  }
+  .needvisa_screen .box_el {
+    align-items: center;
+  }
+  ::placeholder {
+    font-size: 14px;
+  }
+  .takevisa_screen .box_row {
+    flex-direction: column;
+  }
+  .takevisa_screen .left_side {
+    margin-bottom: 30px;
+  }
+  .takevisa_screen .right_side p {
+    text-align: center;
+  }
+  .first_screen__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .first_screen__offer {
+    text-align: center;
+  }
+  .first_screen__gift {
+    align-items: center;
+  }
+  .first_screen__offer p.big {
+    font-size: 30px;
+  }
+  .first_screen__offer p.big span {
+    font-size: 30px;
+  }
+  .first_screen__offer p.small {
+    font-size: 22px;
+  }
+  .first_screen__gift p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .review_screen .title_review {
+    margin-top: 50px;
+  }
+  .include_screen .include_circle_white {
+    right: 0;
+    left: initial;
+  }
+  .popup {
+    padding: 10px 10px;
+  }
+  .header_main__wrap {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .header_main__left {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .header_main__phone {
+    align-items: center;
+  }
+  .first_screen__bg {
+    right: -35%;
+    top: -55%;
+  }
+  .second_screen__top {
+    margin-top: 30px;
+  }
+  .second_screen__left .left__box {
+    padding: 30px 30px;
+  }
+  .second_screen__right {
+    margin-left: 40px;
+  }
+  .second_screen__right li:before {
+    margin-left: -40px;
+  }
+  .third_screen__wrap {
+    left: 15px;
+    padding: 0;
+  }
+  .needvisa_screen .box_el p {
+    font-size: 16px;
+  }
+  .needvisa_screen .box_el {
+    margin-bottom: 50px;
+  }
+}
+

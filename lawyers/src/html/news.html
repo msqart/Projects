@@ -1,0 +1,90 @@
+@@include('./templates/head.html')
+<body>
+@@include('./templates/header.html')
+<!-- BEGIN FIRST SCREEN -->
+<section class="screen-first">
+    <div class="container">
+        <div class="bread">
+
+            <a href="#"><i class="icon-hme"></i>Главная</a>
+            <a href="#">Новости</a>
+        </div>
+    </div>
+    <div class="screen-first-bg">
+        <img src="img/screen-1-news-bg.jpg" alt="">
+    </div>
+    <!--<img class="screen-first-bg" src="img/screen-1-bg.jpg" alt="">-->
+</section>
+<!-- END FIRST SCREEN -->
+
+<!-- BEGIN NEWS SCREEN -->
+<section class="about-company">
+    <div class="container about-container">
+        <div class="about-box box-news">
+            <h1 class="title-block about-box-title ta-left">Новости</h1>
+        </div>
+        <span class="triangular prac_trian"></span>
+        <div class="left-about-img news-left-img">
+            <img src="img/left-news-img.jpg" alt="">
+        </div>
+    </div>
+</section>
+<!-- END NEWS SCREEN -->
+
+
+
+<!-- BEGIN NEWS SCREEN -->
+<section class="news">
+    <div class="container">
+        <div class="news-box">
+
+            <article class="news-box-elements">
+                <div class="news-box-left">
+                    <div class="news-photo">
+                        <img src="img/news-photo.jpg" alt="">
+                    </div>
+                    <div class="news-box-info">
+                        <h3 class="news-box-info-title">Название новости</h3>
+                        <time class="news-box-info-date">04.08.2018</time>
+                        <p class="news-box-info-text">
+                            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на                              русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.лений в домашних условиях.лений в                                 домашних условиях.лений в домашних условиях.
+                        </p>
+                    </div>
+                </div>
+                <button class="news-box-next">
+                    <a href="news-page.html"><i class="icon-arrow-practice"></i></a>
+                </button>
+            </article>
+
+            <article class="news-box-elements">
+                <div class="news-box-left">
+                    <div class="news-photo">
+                        <img src="img/news-photo.jpg" alt="">
+                    </div>
+                    <div class="news-box-info">
+                        <h3 class="news-box-info-title">Название новости</h3>
+                        <time class="news-box-info-date">04.08.2018</time>
+                        <p class="news-box-info-text">
+                            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+                            более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
+                            публичных выступлений в домашних условиях.лений в домашних условиях.лений в домашних
+                            условиях.лений в домашних условиях.
+                        </p>
+                    </div>
+                </div>
+                <button class="news-box-next">
+                    <a href="news-page.html"><i class="icon-arrow-practice"></i></a>
+                </button>
+            </article>
+
+        </div>
+    </div>
+
+    <div class="slick-buttons">
+        <button class="slick-prev"><span><i class="icon-arrow"></i></span></button>
+        <label class="slick-value" id="slick-value">1/2</label>
+        <button class="slick-next"><span><i class="icon-arrow"></i></span></button>
+    </div>
+</section>
+<!-- END NEWS SCREEN -->
+@@include('./templates/footer.html')

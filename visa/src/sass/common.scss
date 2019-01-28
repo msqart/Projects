@@ -1,0 +1,321 @@
+body {
+  font: 300 20px/1.6 $fontMontserrat;
+  color: $black;
+}
+
+html {
+  font-size: .7810vw;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+* a {
+  transition: color .5s ease-out;
+}
+
+p a:hover {
+  color: $blue;
+}
+
+.btn {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 20px/1 $fontMontserrat;
+  border-radius: 38px;
+  position: relative;
+  width: 100%;
+  max-width: 306px;
+  padding: 0 30px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  text-align: center;
+  &:active {
+    background: $btnColor;
+    color: $white;
+    border: $btnColor;
+  }
+  &.btn_white {
+    @include button($white);
+    color: $btnColor;
+    transition: background $time, color $time .2s;
+    position: relative;
+    overflow: hidden;
+    &:after {
+      position: absolute;
+      content: '';
+      top: 50%;
+      left: 0;
+      width: 30%;
+      height: 400%;
+      background: linear-gradient(rgba(151,94,207,.02) 30%, rgba(151,94,207,.15) 70%);
+      animation: btnBlue 7s ease-in infinite 4s;
+    }
+    &:hover {
+      background: $btnColor;
+      color: $white;
+    }
+  }
+  &.btn_blue {
+    @include button($btnColor);
+    position: relative;
+    color: $white;
+    transition: background $time, color $time .2s;
+    overflow: hidden;
+    &:after {
+      position: absolute;
+      content: '';
+      top: 50%;
+      left: 0;
+      width: 30%;
+      height: 400%;
+      background: linear-gradient(rgba(255,255,255,.02) 30%, rgba(255,255,255,.15) 70%);
+      animation: btnBlue 5s ease-in infinite 1s;
+    }
+    &:hover {
+      background: $white;
+      color: $btnColor;
+    }
+  }
+}
+
+.btn_form {
+  max-width: 483px;
+  margin-top: 30px;
+}
+
+.btn_needvisa {
+  max-width: 467px;
+  margin: 0 auto;
+}
+
+.btn_test {
+  margin: 0 auto;
+}
+
+.btn_callus {
+  max-width: 550px;
+}
+
+.title {
+  font-family: $fontMontserrat;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: $titleColor;
+}
+
+.title_desc {
+  color: $black;
+  font-family: $fontMontserrat;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 34px;
+  text-align: center;
+  span {
+    font-weight: 700;
+  }
+}
+
+input {
+  width: 100%;
+  max-width: 483px;
+  height: 70px;
+  background: $white;
+  color: $blue;
+  font-size: 20px;
+  line-height: 70px;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+  font-family: $fontMontserrat;
+  padding: 0 50px;
+  border-radius: 35px;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 20px;
+  transition: all .5s ease-out;
+  &:focus {
+    box-shadow: 0 12px 43px rgba(161, 116, 204, 0.2);
+  }
+}
+
+select {
+  width: 100%;
+  max-width: 483px;
+  height: 70px;
+  background: $white;
+  color: $blue;
+  font-size: 20px;
+  line-height: 70px;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+  font-family: $fontMontserrat;
+  padding: 0 50px;
+  border-radius: 35px;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 20px;
+  transition: all .5s ease-out;
+  outline: none;
+  &:focus {
+    box-shadow: 0 12px 43px rgba(161, 116, 204, 0.2);
+  }
+}
+
+textarea {
+  width: 100%;
+  max-width: 483px;
+  max-height: 178px;
+  background: $white;
+  color: $blue;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: $fontMontserrat;
+  padding: 20px 50px;
+  border-radius: 35px;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  line-height: 1.2;
+  transition: all .5s ease-out;
+  resize: none;
+  &:focus {
+    box-shadow: 0 12px 43px rgba(161, 116, 204, 0.2);
+  }
+}
+
+::placeholder {
+  color: $black;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: $fontMontserrat;
+  padding: 0;
+}
+
+.bg_grid {
+  position: absolute;
+  width: 191px;
+  height: 178px;
+  top: 273px;
+  right: 193px;
+  animation: Grid 20s infinite both linear;
+}
+
+.bg_line {
+  position: absolute;
+  width: 130px;
+  height: 121px;
+  bottom: 250px;
+  right: -30px;
+  animation: bgLine 15s infinite both ease-in-out;
+}
+
+.bg_circle {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  bottom: 156px;
+  right: 383px;
+  animation: bgCircle 3s infinite both;
+}
+
+.slider_check {
+  cursor: pointer;
+  display: block;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: #51277a;
+    border: none;
+    border-radius: 100%;
+    transition: all $time;
+  }
+  &:hover:after {
+    border: 1px solid #51277a;
+    background: $white;
+    transform: scale(1.5);
+  }
+}
+.glide__bullet {
+  transition: all .2s ease-out;
+}
+.glide__bullet--active .slider_check:after{
+  transition: all .2s ease-out;
+  border: 1px solid #51277a;
+  background: $white;
+  transform: scale(1.5);
+}
+.slider__bullets {
+  display: flex;
+}
+.slider_btn__left {
+  width: 37px;
+  height: 25px;
+  border: none;
+  background: transparent;
+  margin-right: 35px;
+  color: #a174cc;
+}
+.slider_btn__right {
+  width: 37px;
+  height: 25px;
+  border: none;
+  background: transparent;
+  margin-left: 35px;
+  color: #a174cc;
+}
+.slider_btn__wrap button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+}
+.slider_btn__wrap span {
+  position: relative;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  margin: 0 7px;
+  & i {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.slider_btn__left {
+  &:hover .icon-arrow {
+    transform: translateX(-70%);
+  }
+}
+
+.slider_btn__right {
+  &:hover .icon-arrow {
+    transform: translateX(30%);
+  }
+}
+
+
+#map {
+  margin-top: -320px;
+  width: 100%;
+  height: 987px;
+  z-index: 1;
+}
+
+input {outline: none;}
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0 50px #fff !important; /* Цвет фона */
+  -webkit-text-fill-color: #8884c3 !important; /* цвет текста */
+  color: #8884c3 !important; /* цвет текста */
+}

@@ -1,0 +1,146 @@
+/*Century*/
+@font-face {
+  font-family: 'Century';
+  src: urlCss('fonts/Century/century.eot');
+  src: urlCss('fonts/Century/century.eot') format('embedded-opentype'),
+  urlCss('fonts/Century/century.woff2') format('woff2'),
+  urlCss('fonts/Century/century.woff') format('woff'),
+  urlCss('fonts/Century/century.ttf') format('truetype'),
+  urlCss('fonts/Century/century.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Helvetica Bold*/
+@font-face {
+  font-family: 'Helvetica';
+  src: urlCss('fonts/Helvetica Bold/helveticaneuecyr-bold.eot');
+  src: urlCss('fonts/Helvetica Bold/helveticaneuecyr-bold.eot') format('embedded-opentype'),
+  urlCss('fonts/Helvetica Bold/helveticaneuecyr-bold.woff2') format('woff2'),
+  urlCss('fonts/Helvetica Bold/helveticaneuecyr-bold.woff') format('woff'),
+  urlCss('fonts/Helvetica Bold/helveticaneuecyr-bold.ttf') format('truetype'),
+  urlCss('fonts/Helvetica Bold/helveticaneuecyr-bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*Helvetica Medium*/
+@font-face {
+  font-family: 'Helvetica';
+  src: urlCss('fonts/Helvetica Medium/helveticaneuecyr-medium.eot');
+  src: urlCss('fonts/Helvetica Medium/helveticaneuecyr-medium.eot') format('embedded-opentype'),
+  urlCss('fonts/Helvetica Medium/helveticaneuecyr-medium.woff2') format('woff2'),
+  urlCss('fonts/Helvetica Medium/helveticaneuecyr-medium.woff') format('woff'),
+  urlCss('fonts/Helvetica Medium/helveticaneuecyr-medium.ttf') format('truetype'),
+  urlCss('fonts/Helvetica Medium/helveticaneuecyr-medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Helvetica Light*/
+@font-face {
+  font-family: 'Helvetica';
+  src: urlCss('fonts/Helvetica Light/helveticaneuecyr-light.eot');
+  src: urlCss('fonts/Helvetica Light/helveticaneuecyr-light.eot') format('embedded-opentype'),
+  urlCss('fonts/Helvetica Light/helveticaneuecyr-light.woff2') format('woff2'),
+  urlCss('fonts/Helvetica Light/helveticaneuecyr-light.woff') format('woff'),
+  urlCss('fonts/Helvetica Light/helveticaneuecyr-light.ttf') format('truetype'),
+  urlCss('fonts/Helvetica Light/helveticaneuecyr-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*Museo Bold*/
+@font-face {
+  font-family: 'Museo';
+  src: urlCss('fonts/Museo Bold/museosanscyrl-700.eot');
+  src: urlCss('fonts/Museo Bold/museosanscyrl-700.eot') format('embedded-opentype'),
+  urlCss('fonts/Museo Bold/museosanscyrl-700.woff2') format('woff2'),
+  urlCss('fonts/Museo Bold/museosanscyrl-700.woff') format('woff'),
+  urlCss('fonts/Museo Bold/museosanscyrl-700.ttf') format('truetype'),
+  urlCss('fonts/Museo Bold/museosanscyrl-700.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*Museo Light*/
+@font-face {
+  font-family: 'Museo';
+  src: urlCss('fonts/Museo Light/museosanscyrl-300.eot');
+  src: urlCss('fonts/Museo Light/museosanscyrl-300.eot') format('embedded-opentype'),
+  urlCss('fonts/Museo Light/museosanscyrl-300.woff2') format('woff2'),
+  urlCss('fonts/Museo Light/museosanscyrl-300.woff') format('woff'),
+  urlCss('fonts/Museo Light/museosanscyrl-300.ttf') format('truetype'),
+  urlCss('fonts/Museo Light/museosanscyrl-300.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*Museo Light*/
+@font-face {
+  font-family: 'Museo';
+  src: urlCss('fonts/Museo Extra Light/museosanscyrl-100.eot');
+  src: urlCss('fonts/Museo Extra Light/museosanscyrl-100.eot') format('embedded-opentype'),
+  urlCss('fonts/Museo Extra Light/museosanscyrl-100.woff2') format('woff2'),
+  urlCss('fonts/Museo Extra Light/museosanscyrl-100.woff') format('woff'),
+  urlCss('fonts/Museo Extra Light/museosanscyrl-100.ttf') format('truetype'),
+  urlCss('fonts/Museo Extra Light/museosanscyrl-100.svg') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*Museo Medium*/
+@font-face {
+  font-family: 'Museo';
+  src: urlCss('fonts/Museo Medium/museosanscyrl-500.eot');
+  src: urlCss('fonts/Museo Medium/museosanscyrl-500.eot') format('embedded-opentype'),
+  urlCss('fonts/Museo Medium/museosanscyrl-500.woff2') format('woff2'),
+  urlCss('fonts/Museo Medium/museosanscyrl-500.woff') format('woff'),
+  urlCss('fonts/Museo Medium/museosanscyrl-500.ttf') format('truetype'),
+  urlCss('fonts/Museo Medium/museosanscyrl-500.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: urlCss('fonts/fontello/fontello.eot?10865147');
+  src: urlCss('fonts/fontello/fontello.eot?10865147#iefix') format('embedded-opentype'),
+  urlCss('fonts/fontello/fontello.woff2?10865147') format('woff2'),
+  urlCss('fonts/fontello/fontello.woff?10865147') format('woff'),
+  urlCss('fonts/fontello/fontello.ttf?10865147') format('truetype'),
+  urlCss('fonts/fontello/fontello.svg?10865147#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alcohol:before { content: '\e800'; } /* '' */
+.icon-arrow:before { content: '\e801'; } /* '' */
+.icon-burger:before { content: '\e802'; } /* '' */
+.icon-call:before { content: '\e803'; } /* '' */
+.icon-etap:before { content: '\e804'; } /* '' */
+.icon-flask:before { content: '\e805'; } /* '' */
+.icon-gallery_more:before { content: '\e806'; } /* '' */
+.icon-game:before { content: '\e807'; } /* '' */
+.icon-garant:before { content: '\e808'; } /* '' */
+.icon-otvetu:before { content: '\e809'; } /* '' */
+.icon-podhod:before { content: '\e80a'; } /* '' */
+.icon-prof:before { content: '\e80b'; } /* '' */
+.icon-syringe:before { content: '\e80c'; } /* '' */
+.icon-zoom:before { content: '\e80d'; } /* '' */

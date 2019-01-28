@@ -1,0 +1,88 @@
+/*Gotham Pro*/
+@font-face {
+  font-family: 'Gotham Pro';
+  src: urlCss('fonts/GothamPro/Bold/GothamPro-Bold.eot');
+  src: urlCss('fonts/GothamPro/Bold/GothamPro-Bold.eot') format('embedded-opentype'),
+  urlCss('fonts/GothamPro/Bold/GothamPro-Bold.woff2') format('woff2'),
+  urlCss('fonts/GothamPro/Bold/GothamPro-Bold.woff') format('woff'),
+  urlCss('fonts/GothamPro/Bold/GothamPro-Bold.otf') format('opentype'),
+  urlCss('fonts/GothamPro/Bold/GothamPro-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: urlCss('fonts/GothamPro/Medium/GothamPro-Medium.eot');
+  src: urlCss('fonts/GothamPro/Medium/GothamPro-Medium.eot') format('embedded-opentype'),
+  urlCss('fonts/GothamPro/Medium/GothamPro-Medium.woff2') format('woff2'),
+  urlCss('fonts/GothamPro/Medium/GothamPro-Medium.woff') format('woff'),
+  urlCss('fonts/GothamPro/Medium/GothamPro-Medium.ttf') format('truetype'),
+  urlCss('fonts/GothamPro/Medium/GothamPro-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: urlCss('fonts/GothamPro/Regular/GothamPro-Regular.eot');
+  src: urlCss('fonts/GothamPro/Regular/GothamPro-Regular.eot') format('embedded-opentype'),
+  urlCss('fonts/GothamPro/Regular/GothamPro-Regular.woff2') format('woff2'),
+  urlCss('fonts/GothamPro/Regular/GothamPro-Regular.woff') format('woff'),
+  urlCss('fonts/GothamPro/Regular/GothamPro-Regular.ttf') format('truetype'),
+  urlCss('fonts/GothamPro/Regular/GothamPro-Regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: urlCss('fonts/GothamPro/Light/GothamPro-Light.eot');
+  src: urlCss('fonts/GothamPro/Light/GothamPro-Light.eot') format('embedded-opentype'),
+  urlCss('fonts/GothamPro/Light/GothamPro-Light.woff2') format('woff2'),
+  urlCss('fonts/GothamPro/Light/GothamPro-Light.woff') format('woff'),
+  urlCss('fonts/GothamPro/Light/GothamPro-Light.otf') format('opentype'),
+  urlCss('fonts/GothamPro/Light/GothamPro-Light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: urlCss('fonts/fontello/fontello.eot?29087430');
+  src: urlCss('fonts/fontello/fontello.eot?29087430#iefix') format('embedded-opentype'),
+  urlCss('fonts/fontello/fontello.woff2?29087430') format('woff2'),
+  urlCss('fonts/fontello/fontello.woff?29087430') format('woff'),
+  urlCss('fonts/fontello/fontello.ttf?29087430') format('truetype'),
+  urlCss('fonts/fontello/fontello.svg?29087430#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?29087430#fontello') format('svg');
+  }
+}
+*/
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before { content: '\e800'; font-size: 20px;
+  margin-top: 5px;} /* '' */

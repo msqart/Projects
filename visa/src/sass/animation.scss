@@ -1,0 +1,274 @@
+@keyframes circleFirst {
+  0% {
+    transform: translate(0, 0) + scale(1);
+  }
+  20% {
+    transform: translate(30%, -20%) + scale(.9);
+
+  }
+  40% {
+    transform: translate(50%, -10%) + scale(.7);
+
+  }
+  60% {
+    transform: translate(40%, 15%) + scale(.8);
+
+  }
+  80% {
+    transform: translate(15%, -5%) scale(.6);
+
+  }
+  100% {
+    transform: translate(0%, 0%) + scale(1);
+
+  }
+}
+
+@keyframes circleSec {
+  0% {
+    transform: translate(0, 0) + scale(1);
+  }
+  20% {
+    transform: translate(20%, 10%) + scale(.9);
+
+  }
+  40% {
+    transform: translate(-20%, 20%) + scale(.7);
+
+  }
+  60% {
+    transform: translate(30%, 40%) + scale(.8);
+
+  }
+  80% {
+    transform: translate(-15%, -5%) scale(.6);
+
+  }
+  100% {
+    transform: translate(0%, 0%) + scale(1);
+
+  }
+}
+
+@keyframes CircleIncludeT {
+  0% {
+    transform: translate(-50%,-50%) + scale(1);
+  }
+  20% {
+    transform: translate(-50%,-50%) + scale(.9);
+
+  }
+  40% {
+    transform: translate(-50%,-50%) + scale(1);
+
+  }
+  60% {
+    transform: translate(-50%,-50%) + scale(.9);
+
+  }
+  80% {
+    transform: translate(-50%, -50%) scale(.8);
+
+  }
+  100% {
+    transform: translate(-50%,-50%) + scale(1);
+
+  }
+}
+
+@keyframes CircleIncludeS {
+  0% {
+    transform: translate(-50%,-50%) + scale(1);
+  }
+  20% {
+    transform: translate(-50%,-50%) + scale(.9);
+
+  }
+  40% {
+    transform: translate(-50%,-50%) + scale(.8);
+
+  }
+  60% {
+    transform: translate(-50%,-50%) + scale(.9);
+
+  }
+  80% {
+    transform: translate(-50%, -50%) scale(.9);
+
+  }
+  100% {
+    transform: translate(-50%,-50%) + scale(1);
+
+  }
+}
+
+@keyframes CircleIncludeF {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(.98);
+
+  }
+  40% {
+    transform: scale(.92);
+
+  }
+  60% {
+    transform: scale(.90);
+
+  }
+  80% {
+    transform: scale(.95);
+
+  }
+  100% {
+    transform: scale(1);
+
+  }
+}
+
+@keyframes Grid {
+  0% {
+    transform: translate(-50%,-50%) + scale(1) + rotate(0deg);
+    opacity: 1;
+  }
+  20% {
+    transform: translate(-40%,-50%) + scale(.8) + rotate(60deg);
+
+  }
+  40% {
+    transform: translate(-30%,-40%) + scale(.7) + rotate(120deg);
+    opacity: .4;
+  }
+  60% {
+    transform: translate(-35%,-45%) + scale(.6) + rotate(180deg);
+
+  }
+  80% {
+    transform: translate(-55%,-55%) + scale(.8) + rotate(240deg);
+
+  }
+  100% {
+    transform: translate(-50%,-50%) + scale(1) + rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes Circle {
+  0% {
+    transform: scale(1);
+
+  }
+  20% {
+    transform: scale(.9);
+
+  }
+  40% {
+    transform: scale(.85);
+
+  }
+  60% {
+    transform: scale(.8);
+
+  }
+  80% {
+    transform: scale(.9);
+
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes CircleMin {
+  0% {
+    transform: scale(1);
+
+  }
+  20% {
+    transform: scale(.95);
+
+  }
+  40% {
+    transform: scale(.9);
+
+  }
+  60% {
+    transform: scale(.9);
+
+  }
+  80% {
+    transform: scale(.92);
+
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes circleDote {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(.8);
+    opacity: .4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes circleDote2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes btnBlue {
+  0% {
+    transform: translate(-400%, -50%) + rotate(-45deg);
+    opacity: 1;
+  }
+  20% {
+    transform: translate(400%, -50%) + rotate(-45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(400%, -50%) + rotate(-45deg);
+    opacity: 1;
+  }
+}
+
+@keyframes bgCircle {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bgLine {
+  0% {
+    transform: scale(.8) + rotate(0deg) + translate(10%,40%);
+  }
+  50% {
+    transform: scale(.6) + rotate(30deg) + translate(20%,50%);
+  }
+  100% {
+    transform: scale(.8) + rotate(0deg) + translate(10%,40%);
+  }
+}

@@ -1,0 +1,178 @@
+.analytics {
+  background-color: #0d0f20;
+  padding: 140px 0 70px;
+  transition: background-color $time;
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .a_d_title {
+    margin-bottom: 20px;
+  }
+
+  .a_d_text {
+    font-size: 20px;
+    overflow: hidden;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #eaeaea;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.56;
+      margin-bottom: 9px;
+    }
+
+    ol {
+      counter-reset: count;
+
+      li {
+        &::before {
+          counter-increment: count;
+          content: counter(count) ".";
+          margin-right: 4px;
+        }
+      }
+    }
+
+    &.change {
+      transition: height .5s;
+    }
+  }
+
+  .analytics_detail {
+    width: 100%;
+    max-width: 720px;
+    margin-right: 65px;
+  }
+}
+
+body.white {
+  .analytics {
+    background-color: #f4f4f4;
+
+    .a_d_text {
+      h1, h2, h3, h4, h5, h6 {
+        color: $colorTextLight;
+      }
+    }
+  }
+
+  .analytics_elem {
+    .analytics_elem_bg {
+      color: $colorTextLight;
+    }
+
+    &:hover, &.active {
+      .analytics_elem_title {
+        color: $colorTextLight;
+      }
+    }
+
+    &::before {
+      transition: 0s;
+      opacity: 0;
+    }
+  }
+}
+
+.analytics_list {
+  width: 100%;
+  max-width: 390px;
+}
+
+.analytics_elem {
+  position: relative;
+  padding: 12px 15px 12px 85px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  min-height: 69px;
+
+  &::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: calc(100% - 40px);
+    left: 20px;
+    bottom: 0;
+    position: absolute;
+    background-color: #1f1d25;
+    transition: width .8s ease-out, opacity .0s .4s;
+  }
+
+  .analytics_elem_data {
+    display: none;
+  }
+
+  .analytics_elem_title {
+    color: #5d5c5f;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.15;
+    transition: color $time, font-weight .3s;
+  }
+
+  .analytics_elem_icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 34px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: $colorBlue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: $time;
+
+  }
+
+  .analytics_elem_bg {
+    fill: none;
+    stroke: $colorBlue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .8s ease-out;
+    stroke-dasharray: 613;
+    stroke-dashoffset: 613;
+    stroke-miterlimit: 10;
+    stroke-width: 2;
+  }
+
+  &:hover, &.active {
+    .analytics_elem_bg {
+      stroke-dashoffset: 0;
+    }
+
+    .analytics_elem_title {
+      color: #fff;
+    }
+
+    .analytics_elem_icon {
+      width: 44px;
+      height: 44px;
+      background-color: #ffffff;
+      color: $colorBlue;
+      left: 24px;
+    }
+
+    &::before {
+      width: 0;
+    }
+  }
+
+  &.active {
+    .analytics_elem_title {
+      font-weight: 700;
+    }
+  }
+}

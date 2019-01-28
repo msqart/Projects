@@ -1,0 +1,72 @@
+//BEGIN HEADER STYLE
+.header_main {
+  position: relative;
+  z-index: 55;
+  padding: 28px 0;
+  min-height: 130px;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1010px;
+    width: 100%;
+  }
+  &__logo {
+    svg {
+      width: 150px;
+      height: auto;
+      transition: fill .5s ease-in;
+      .st3 {
+        transition: fill .5s ease-in;
+      }
+      &:hover .st3 {
+        fill: #975ecf;
+      }
+    }
+  }
+  &__phone {
+    width: 100%;
+    max-width: 810px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    a {
+      letter-spacing: 0.48px;
+      font-size: 24px;
+      font-weight: 700;
+      color: $black;
+      font-family: $fontMontserrat;
+      margin-right: 100px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        color: $blue;
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+      &:nth-child(3) {
+        color: $white;
+      }
+    }
+  }
+  &__button {
+    height: 70px;
+    border: 1px solid $white;
+    color: $white;
+    background: none;
+    transition: background $time, border $time;
+    &:hover {
+      background: $btnColor;
+      border: 1px solid $btnColor;
+    }
+  }
+}
+
+//END HEADER STYLE

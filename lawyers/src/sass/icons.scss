@@ -1,0 +1,170 @@
+.bread a i:before {
+  font-size: 45px;
+  position: absolute;
+  margin-left: -60px;
+  color: $red;
+  margin-top: -8px;
+}
+
+.lang_arrow i:before {
+  font-size: 24px;
+  position: absolute;
+  bottom: 12px;
+  right: -5px;
+}
+
+.values-icon i:before {
+  font-size: 80px;
+  color: $white;
+}
+
+.slick-prev {
+  & span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & i {
+      display: inline-block;
+      &:before {
+        top: 50%;
+        font-size: 46px;
+        transform: rotate(180deg);
+        transition: all .7s ease-in-out;
+      }
+    }
+  }
+  & span i:hover:before {
+    transform: translateX(-10%) rotate(180deg);
+    color: $white;
+  }
+}
+
+.slick-next {
+  & span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & i {
+      display: inline-block;
+      &:before {
+        top: 50%;
+        font-size: 46px;
+        transition: all .7s ease-in-out;
+      }
+    }
+  }
+  & span i:hover:before {
+    transform: translateX(10%);
+    color: $white;
+  }
+}
+
+.social i {
+  &:before {
+    color: $white;
+    font-size: 45px;
+    transition: color .8s;
+  }
+  &:hover:before {
+    color: $red;
+  }
+}
+
+.icon-box span {
+  & .icon-phone:before {
+    color: $white;
+    font-size: 28px;
+    transition: color .8s;
+  }
+  & .icon-mail:before {
+    color: $white;
+    font-size: 40px;
+    transition: color .8s;
+  }
+  & .icon-facebook:before {
+    color: $white;
+    font-size: 40px;
+    transition: color .8s;
+  }
+}
+
+.box-left-icon .icon-phone:before {
+  font-size: 50px;
+}
+
+.box-left-icon .icon-placeholder:before {
+  font-size: 70px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.box-left-icon .icon-mail:before {
+  font-size: 70px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.left-side-soc .soc-inst span .icon-insta:before {
+  font-size: 40px;
+}
+
+.left-side-soc .soc-fb span .icon-fb:before {
+  font-size: 40px;
+}
+
+.icon-naruchniki:before {
+  margin: 0px auto;
+  transform: translateY(-24%);
+}
+
+.news-box-next .icon-arrow-practice:before {
+  transition: all $time;
+  font-size: 40px;
+  transform: rotate(-90deg);
+  font-weight: 800;
+  text-shadow: -8px -8px 16px rgba(0, 0, 0, 0.38);
+}
+
+.icon-arrow-practice:before {
+  transition: all $time;
+}
+
+.row-practice-box span i:before {
+  color: $white;
+  font-size: 120px;
+}
+
+.row-practice-box .icon-naruchniki:before {
+  font-size: 120px;
+  margin: 0;
+  transform: translate(0);
+}
+
+.row-practice-box .icon-antimonopoly:before {
+  font-size: 80px;
+  margin: 0;
+  transform: translate(0);
+}
+
+.row-practice-box .icon-corporat:before {
+  font-size: 80px;
+}
+
+.row-practice-box .icon-security:before {
+  font-size: 80px;
+}
+
+.row-practice-box .icon-intelectp:before {
+  font-size: 110px;
+}
+
+.row-practice-box .icon-court:before {
+  font-size: 80px;
+}
+.practice .practice-box-elements-wrap .practice-box-btn i:before {
+  transition: all .5s ease-in-out;
+}
+
+.practice-box-btn i:before {
+  transition: all .5s ease-in-out;
+}

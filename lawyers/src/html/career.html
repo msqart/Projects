@@ -1,0 +1,128 @@
+@@include('./templates/head.html')
+<body>
+@@include('./templates/header.html')
+<!-- BEGIN FIRST SCREEN -->
+<section class="screen-first">
+    <div class="container">
+        <div class="bread">
+            <a href="#"><i class="icon-hme"></i>Главная</a>
+            <a href="#">Карьера</a>
+        </div>
+    </div>
+    <div class="screen-first-bg">
+        <img src="img/screen-1-bg.jpg" alt="">
+    </div>
+    <!--<img class="screen-first-bg" src="img/screen-1-bg.jpg" alt="">-->
+</section>
+<!-- END FIRST SCREEN -->
+
+<!-- BEGIN CAREER SCREEN -->
+<section class="career">
+    <div class="container-career">
+        <div class="career-box-text">
+            <h1 class="title-block "><span>Карьера <br> в Клочков & партнеры</span></h1>
+            <div class="career-box-text-p">
+                <p>
+                    Команда адвокатского объединения «Клочков и партнеры»® - это коллектив перспективных,
+                    целеустремленных, трудолюбивых профессионалов которые выставляют высокие требования к себе и
+                    коллегам во всем, что делают.
+                </p>
+                <p>
+                    Мы стараемся, чтобы работа в адвокатском объединении не была ремесленной, а потому готовы поддержать
+                    таланты в развитии их обственного проекта.
+                </p>
+                <p>
+                    Мы предлагаем интересную и интенсивную работу в стабильном, перспективном коллективе, в
+                    оборудованном офисе в центре города на полный рабочий день.
+                </p>
+                <p>
+                    Работа в адвокатском объединении «Клочков и партнеры»® основана на принципах порядочности,
+                    активности, конфиденциальности, высокой ответственности и взаимной поддержке.
+                </p>
+                <p>
+                    <span>
+                    Мы предлагаем: команду специалистов своего дела.
+                        </span>
+                </p>
+                <p>
+                    Объединение предоставляет широкие возможности для повышения профессиональной квалификации, личного
+                    карьерного роста, проявления лидерских способностей.
+                </p>
+                <p>
+                    Требования к идеальному кандидату:
+                </p>
+                <ul>
+                    <li><span>высшее юридическое образование;</li>
+                    <li><span>логическое мышление;</span></li>
+                    <li><span>владение инструментами продвижения в Интернете (социальные сети, блоги и т.д.);</span></li>
+                    <li><span>неудержимое желание работать в команде;</span></li>
+                    <li><span>и конечно же ИДЕИ, которые мы поможем реализовать.</span></li>
+                </ul>
+                <p>
+                    В случае заинтересованности звоните или отправляйте резюме на адрес info@klochkov.partners или
+                    воспользуйтесь формой ниже
+                </p>
+
+            </div>
+            <form action="#" class="career-box-text-form">
+                <div class="career-form-left">
+                    <label for="career-form-name" class="career-form-label">Представьтесь</label>
+                    <input type="text" name="name" pattern="^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']?$"
+                           class="career-form-input" id="career-form-name" placeholder="Богдан" required>
+
+                    <label for="career-form-mail" class="career-form-label">Email</label>
+                    <input type="email" name="email" class="career-form-input" id="career-form-mail"
+                           placeholder="bilbo@gmail.com"
+                           required>
+
+                    <label for="career-form-phone" class="career-form-label">Номер телефона</label>
+                    <input type="tel" name="phone" class="career-form-input" id="career-form-phone"
+                           placeholder="068 999 98 99"
+                           required>
+                </div>
+                <div class="career-form-right">
+                    <label for="career-form-text" class="career-form-label">Сопроводительное письмо</label>
+                    <textarea name="career-form-text" id="career-form-text" class="career-form-input" cols="30"
+                              rows="10"></textarea>
+
+                    <label for="file-upload" class="career-form-label">Прикрепить файл с резюме</label>
+                    <div class="file-upload-border">
+                        <div class="file-upload" id="file-upload">
+                            <label>
+                                <input type="file" name="file">
+                                <span>Обзор</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit" class="btn-form">Отправить</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="career-box-img">
+            <div class="career-box-img-wrap">
+                <img src="img/career-box-img1.jpg" alt="">
+            </div>
+            <div class="career-box-img-wrap">
+                <img src="img/career_bg.jpg" alt="">
+            </div>
+            <div class="career-box-img-wrap">
+                <img src="img/career_bg_1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="career-triangular">
+            <img src="img/career-triangular.png" alt="">
+        </div>
+        <div class="career-bg">
+            <img src="img/career-bg.png" alt="background">
+        </div>
+    </div>
+</section>
+<!-- BEGIN CAREER SCREEN -->
+
+<!-- END REVIEWS SCREEN -->
+@@include('./templates/map.html')
+@@include('./templates/footer.html')

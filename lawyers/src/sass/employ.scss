@@ -1,0 +1,209 @@
+.left-employ-img {
+  max-height: 1100px;
+  min-height: 500px !important;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &:before {
+     @include before(100%, 100%, #fc8a5c);
+     opacity: 0 !important;
+   }
+}
+
+.position {
+  color: #0f0f0f;
+  font-family: $fontLato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+}
+.ta-left {
+  text-align: left;
+}
+.employ-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 680px;
+  margin-top: 108px;
+  .employ-elements {
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.icon-box {
+  width: 100%;
+  max-width: 175px;
+  position: relative;
+  & span {
+    position: relative;
+    display: flex;
+    width: 89px;
+    height: 81px;
+    background: $red;
+    justify-content: center;
+    align-items: center;
+    & i {
+      color: $white;
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+    }
+    &:before {
+      @include before(116px, 2px, $red);
+      bottom: -16px;
+      left: 0;
+    }
+  }
+}
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 505px;
+  a {
+    color: #313131;
+    font-family: $fontPhilosopher;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.3px;
+  }
+  p {
+    color: #313131;
+    font-family: $fontPhilosopher;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.3px;
+  }
+}
+
+.employ-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1083px;
+  height: 617px;
+  z-index: -1;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
+/* BEGIN REWARDS SCREEN */
+.rewards {
+  padding: 142px 0 408px 0;
+  overflow: hidden;
+  position: relative;
+  .rewards-slick-buttons {
+    /*position: absolute;*/
+    left: -170px;
+    margin-top: 0 !important;
+    bottom: 129px;
+  }
+  .title-block-rewards {
+    margin-left: 113px;
+    span:before {
+      margin-top: 74px;
+    }
+  }
+  .rewards-bg {
+
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .rewards-bg-top {
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      z-index: -1;
+      &:before {
+        position: absolute;
+        @include before(50%, 100%, $red);
+        opacity: .25;
+        z-index: 5;
+      }
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .rewards-bg-bottom {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      z-index: -1;
+      /*&:before {
+        position: absolute;
+        @include before(50%, 100%, $red);
+        opacity: .25;
+        z-index: 5;
+      }*/
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+.rewards-content {
+  right: -26%;
+  position: relative;
+  /*
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;*/
+  margin-top: 214px;
+  /*max-height: 680px;
+  flex-wrap: wrap;*/
+
+}
+.rewards-slider {
+  margin-right: -26%;
+  overflow: hidden;
+  margin-left: 101px;
+  width: 100%;
+  max-width: 1404px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-self: flex-end;
+  align-items: flex-start;
+  line-height: 0;
+  max-height: 681px;
+  height: 100%;
+  img {
+    /*box-shadow: 0 26px 49px rgba(0, 0, 0, 0.15);*/
+    width: 100%;
+    max-height: 681px;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.employ-name {
+  font-size: 80px !important;
+}

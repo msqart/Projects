@@ -1,0 +1,42 @@
+.callus_screen {
+  position: relative;
+  padding-top: 210px;
+  z-index: 2;
+  padding-bottom: 350px;
+  overflow: hidden;
+}
+.callus_line {
+  top: -20px;
+  right: 291px;
+}
+.callus_bg {
+  position: absolute;
+  z-index: -1;
+  width: 105%;
+  height: 100%;
+  top: 0;
+  left: -50px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+  }
+}
+.call_us__info {
+  margin-left: 208px;
+  width: 100%;
+  max-width: 820px;
+  & p {
+    text-align: left;
+    color: $white;
+    font-family: $fontMontserrat;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    margin-bottom: 53px;
+    & span {
+      font-weight: 700;
+    }
+  }
+}

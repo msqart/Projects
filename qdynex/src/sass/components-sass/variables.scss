@@ -1,0 +1,32 @@
+$urlPath: "../../";
+
+$breakMobile: 768px;
+$breakTablet: 1024px;
+
+$devices: not-desktop phablets phones-tablets;
+$devices: not-desktop phablets phones-tablets;
+
+/*color*/
+$bodyBgColor: #0b0c1b;
+$bodyBgColorLight: #0b0c1b;
+
+$headerBgColor: #0b0c1b;
+$headerBgColorLight: #0b0c1b;
+
+$bgTopSection: #0d0f20;
+$bgTopSectionLight: #f4f4f4;
+
+$colorText: #c4c4c4;
+$colorTextLight: #1d1f21;
+
+$colorBlue: #27b9dd;
+$colorBlueLight: #3da5e1;
+
+$colorGreyLight: #f4f4f4;
+
+
+/*fonts*/
+$fontMain: "HelveticaNeueCyr", sans-serif;
+
+/*effects*/
+$time: .4s ease-out;

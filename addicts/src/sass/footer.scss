@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  background: #181f32;
+  padding: 56px 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0 0 auto;
+  .developed {
+    width: 100%;
+    max-width: 116px;
+    height: auto;
+    svg {
+      fill: #fff;
+      transition: fill $time;
+      &:hover {
+        fill: #20a7ab;
+      }
+    }
+  }
+}

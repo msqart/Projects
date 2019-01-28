@@ -1,0 +1,38 @@
+@keyframes zoomMore {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 0 rgba(255,255,255, 1);
+  }
+  70% {
+    text-shadow: 0 0 300px rgba(255,255,255, 0);
+  }
+  100% {
+    text-shadow: 0 0 0 rgba(255,255,255, 0);
+  }
+}
+
+@keyframes pulseCall {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(32, 167, 171, .6);
+    box-shadow: 0 0 0 0 rgba(32, 167, 171, 1);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 50px rgba(32, 167, 171, 0);
+    box-shadow: 0 0 0 50px rgba(32, 167, 171, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(32, 167, 171, 0);
+    box-shadow: 0 0 0 0 rgba(32, 167, 171, 0);
+  }
+}

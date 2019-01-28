@@ -1,0 +1,153 @@
+body.white {
+  .popup_wrap {
+    background-color: $colorGreyLight;
+
+    .title {
+      color: $colorTextLight;
+    }
+  }
+}
+
+.popup_feedback {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(39, 185, 221, .1);
+  z-index: 56;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.active {
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.popup_info {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(39, 185, 221, .1);
+  z-index: 56;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.active {
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.popup_cls {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 30px;
+  right: 20px;
+  transition: transform $time;
+
+  &:hover {
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(39, 185, 221, 1);
+    transform: rotate(45deg);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(39, 185, 221, 1);
+    transform: rotate(-45deg);
+  }
+}
+
+.popup_wrap {
+  width: 100%;
+  max-width: 600px;
+  background: #0b0c1b;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+
+  p {
+    font-size: 16px;
+  }
+
+  svg {
+    width: 100%;
+    max-width: 180px;
+    fill: rgba(39, 185, 221, 1);
+    margin-bottom: 30px;
+  }
+
+  .title {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 460px;
+
+    input {
+      width: 100%;
+      border: none;
+      border-bottom: 2px solid rgba(39, 185, 221, .5);
+      height: 40px;
+      margin-bottom: 20px;
+      background: transparent;
+      color: #27b9dd;
+      padding: 5px 5px;
+      font-size: 18px;
+      font-weight: 200;
+      transition: border-bottom $time;
+
+      &:focus {
+        border-bottom: 2px solid rgba(255, 255, 255, .5);
+      }
+
+      &:last-child {
+        margin-bottom: 40px;
+      }
+
+      &::placeholder {
+        text-shadow: 0 0 5px rgba(255, 255, 255, .3);
+      }
+    }
+  }
+}

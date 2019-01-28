@@ -1,0 +1,303 @@
+body {
+  font: 400 20px/1.6 $fontLato;
+  color: $black;
+}
+html {
+  font-size: .7810vw;
+}
+
+* a {
+  transition: all .2s ease-in-out 0.05s;
+}
+* a:hover {
+  color: $red !important;
+}
+i {
+  font-style: initial;
+}
+.container {
+  width: 100%;
+  max-width: 1410px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+.slider_bg {
+  img {
+    transition: height $time;
+  }
+}
+.rel {
+  position: relative;
+}
+
+.title-block {
+  color: #313131;
+  font-family: $fontPhilosopher;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.13;
+  text-align: center;
+  span {
+    position: relative;
+    &::before {
+      @include before(2px, 119px, $red);
+      left: 0;
+      top: 100%;
+    }
+  }
+}
+
+.title-prac {
+  span {
+    position: relative;
+    &::before {
+      @include before(2px, 170px, $red);
+      left: 0;
+      top: 130%;
+    }
+  }
+}
+
+
+/* BEGIN FIRST SCREEN  */
+.screen-first {
+  width: 100%;
+  min-height: 925px;
+  //background: urlCss('img/screen-1-bg.jpg');
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  .screen-first-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    img {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(-120deg, #050505 0%, #222222 100%);
+      opacity: 0.65;
+    }
+  }
+}
+
+
+/* END FIRST SCREEN  */
+
+/* BEGIN BREAD (Хлебная крошка) */
+.bread {
+  position: relative;
+  z-index: 5;
+  padding: 47px 41px 52px 41px;
+  border-left: 2px solid #fc8a5c;
+  a {
+    color: $white;
+    font-family: $fontPhilosopher;
+    font-size: 20px;
+    letter-spacing: 0.69px;
+    margin-right: 10px;
+    &:first-child {
+      padding-left: 60px;
+    }
+  }
+  a::after {
+    content: '/';
+    color: $white;
+    margin-left: 10px;
+  }
+  a:last-child::after {
+    content: ' ';
+  }
+  .main-bread-icon {
+    color: #fc8a5c;
+    margin-right: 15px;
+    &:before {
+      @include icon('\e802', 28px, $red);
+      position: absolute;
+      margin-top: -9px;
+      margin-left: -40px;
+    }
+  }
+}
+
+/* END BREAD (Хлебная крошка) */
+
+/* BEGIN Затираем стили автозаполнения */
+input {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0 50px #fff !important; /* Цвет фона */
+  -webkit-text-fill-color: #000 !important; /* цвет текста */
+  color: #000 !important; /* цвет текста */
+}
+
+/* END Затираем стили автозаполнения */
+
+/* BEGIN меняем стили плейсхолдера */
+::placeholder {
+  color: #bebebe;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: $fontLato;
+}
+
+/* END меняем стили плейсхолдера */
+
+/* BEGIN SLIDER BUTTON */
+.slick-buttons {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 129px;
+  left: 19.47%;
+  z-index: 5;
+  background: $colorSlickButton;
+  button {
+    background: transparent;
+    border: none;
+  }
+  .slick-prev {
+    position: relative;
+    width: 80px;
+    height: 60px;
+    background: $colorSlickButton;
+    text-align: center;
+    color: $dark;
+    cursor: pointer;
+    transition: all .5s ease-in-out .1s;
+  }
+  .slick-value {
+    min-width: 40px;
+    margin: 0 20px 0 0;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: center;
+    background: $colorSlickButton;
+    text-align: center;
+    font-family: $fontPhilosopher;
+    font-weight: 400;
+    letter-spacing: 0.69px;
+    color: $white;
+    min-width: 40px;
+    font-size: 20px;
+  }
+  .slick-next {
+    width: 80px;
+    height: 60px;
+    background: $dark;
+    text-align: center;
+    color: $red;
+    cursor: pointer;
+  }
+}
+
+/* END SLIDER BUTTON */
+
+
+
+
+.triangular {
+  position: relative;
+
+  &:before {
+    content: '';
+    background: url(../../img/triangular.png) no-repeat;
+    margin-top: -10%;
+    left: 30%;
+    transform: rotate(-70deg);
+    width: 33.125rem;
+    height: 34.5625rem;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    animation: Trian 20s linear infinite both;
+  }
+}
+.prac_trian {
+  &:before {
+    transform: rotate(5deg);
+    left: 180px;
+    margin-top: 80px !important;
+  }
+}
+
+/*Кнопка*/
+.btn-form {
+  overflow: hidden;
+  height: 70px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: $fontPhilosopher;
+  font-size: 24px;
+  border: none;
+  background: #000;
+  cursor: pointer;
+  transition: 0.5s background linear 0.1s;
+  &:hover {
+    cursor: pointer;
+    background: $white;
+    color: $red;
+  }
+  &:before {
+    box-sizing: border-box;
+    transform: translateX(100%);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+  }
+  &:after {
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+  }
+  &:hover:before {
+    transition: 0.1s transform linear 0.6s, height 0.1s  linear 0.7s;
+    transform: translateX(0);
+    height: 100%;
+    border-color: $red;
+  }
+  &:hover:after {
+    transition: 0.1s transform linear 0.8s, height 0.1s linear 1s;
+    transform: translateX(0);
+    height: 100%;
+    border-color: $red;
+  }
+}
+
+.title-left {
+  text-align: left;
+}

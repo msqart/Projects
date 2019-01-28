@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1170px) {
+  html {
+    font-size: 16px;
+  }
+  .prices_elem {
+    flex: 1 1 30%;
+    margin: 20px 30px;
+    &:nth-child(4n + 4) {
+      margin: 20px 30px;
+    }
+  }
+}
+@media only screen and (orientation: portrait) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .prices_elem {
+    flex: 1 1 50%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .advantages {
+    padding: 30px 0;
+  }
+  .nav_mobile_btn {
+    display: flex;
+  }
+  .header_main {
+    padding: 0 15px;
+  }
+  .nav {
+    transition: $time;
+    .nav_wrap {
+      overflow: hidden;
+      transition: $time;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: flex-start;
+      position: fixed;
+      right: -150%;
+      opacity: 1;
+      background: #fff;
+      padding: 50px 30px;
+      height: calc(100% - 120px);
+      width: 100%;
+      bottom: 0;
+      &.mobile_active {
+        right: 0;
+        & a {
+          margin-bottom: 35px;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .popup {
+    .popup_wrap {
+      height: 100%;
+      border-radius: 0;
+      padding: 70px 10px;
+    }
+    .popup_form {
+      width: 100%;
+    }
+  }
+
+  .main_search {
+    flex-direction: column;
+    .btn {
+      width: 60%;
+    }
+    input {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  }
+  .prices_elem {
+    flex: 1 1 100%;
+    margin: 20px 0;
+    &:nth-child(4n + 4) {
+      margin: 20px 0;
+    }
+  }
+}

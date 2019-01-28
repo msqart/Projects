@@ -1,0 +1,75 @@
+@media only screen and (orientation: portrait) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  html {
+    font-size: 16px;
+  }
+
+  .page_wrap {
+    .btn {
+      height: 60px;
+      font-size: 14px;
+      font-weight: initial;
+    }
+
+    .page_elem {
+      &.main_site {
+        .page_info {
+          justify-content: space-between;
+
+          .page_logo {
+            margin-bottom: 30px;
+          }
+
+          p {
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .page_info {
+        .page_logo {
+          margin-bottom: 30px;
+        }
+
+        p {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .page_wrap {
+    .page_elem {
+      .page_info {
+        p {
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 30px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .page_wrap {
+    flex-direction: column;
+    height: 100%;
+
+    .page_elem {
+      min-height: 600px;
+      max-height: 700px;
+      width: 100%;
+      flex: 1 1 100%;
+    }
+  }
+}

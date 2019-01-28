@@ -1,0 +1,61 @@
+<div class="popup" data-popup-name="login">
+    <div class="popup_box">
+        <div class="popup_cls"></div>
+        <h4 class="title">Ваш кабинет</h4>
+        <form>
+            <input type="text" name="mail" placeholder="Введите Ваш номер или почту" required>
+            <input type="password" name="password" placeholder="Введите Ваш пароль" required>
+            <button type="submit" class="btn"><span>Войти</span></button>
+        </form>
+    </div>
+</div>
+
+<div class="popup popup_send_data" data-popup-name="more">
+    <div class="popup_box">
+        <div class="popup_cls"></div>
+        <h4 class="title">Оставьте Ваш номер и мы перезвоним</h4>
+        <form class="formFeedback">
+            <input type="text" pattern="^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']?$" name="name"
+                   placeholder="Введите Ваше имя" required>
+            <input type="text" name="phone" placeholder="Введите Ваш номер" required>
+            <button type="submit" class="btn"><span>Оставить заявку</span></button>
+        </form>
+    </div>
+</div>
+
+<div class="popup popup_send_info" data-popup-name="success">
+    <div class="popup_box">
+        <div class="popup_cls"></div>
+        <svg class="success_svg" viewBox="0 0 512 512" xml:space="preserve">
+	<path d="M174,229.4c-5.7-6.3-15.7-6.8-21.9-1c-6.3,5.7-6.8,15.7-1,21.9l78.9,85.7c3.1,3.1,6.8,5.2,11,5.2
+		c0,0,0,0,0.5,0c4.2,0,8.4-1.6,11-4.7l199.6-199.1c6.3-6.3,6.3-16.2,0-21.9s-16.2-6.3-21.9,0L241.9,303L174,229.4z"/>
+            <path d="M448.3,250.8c-8.9,0-15.7,6.8-15.7,15.7c0,97.2-79.4,176.6-176.6,176.6S79.4,363.6,79.4,266.4
+		S158.8,89.9,256,89.9c8.9,0,15.7-6.8,15.7-15.7s-6.8-15.7-15.7-15.7C141.6,58.5,48.1,152,48.1,266.4S141.6,474.4,256,474.4
+		s207.9-93.5,207.9-207.9C463.9,257.6,457.1,250.8,448.3,250.8z"/>
+</svg>
+        <h4 class="title">Спасибо за заявку!</h4>
+        <p>Ваша заявка успешно отправлена. <br>В ближайшее время наш специалист свяжется с Вами.</p>
+    </div>
+</div>
+
+<div class="credit_info">
+    <div class="credit_info_box">
+        <div class="cls_box"></div>
+        <h4 class="title">Оформления заказа на получения заема</h4>
+        <div class="c_i_b_wrap">
+            <div class="c_i_b_w_left">
+                <form class="creditInfo">
+                    <input type="text" pattern="^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']?$" name="name"
+                           placeholder="Введите Ваше имя" required>
+                    <input type="text" name="phone" placeholder="Введите Ваш номер" required>
+                    <button type="submit" class="btn"><span>Оформить заем</span></button>
+                </form>
+            </div>
+            <div class="c_i_b_w_right credit_info_data">
+                <p>Сумма кредита <span class="c_i_d_cost">1000₴</span></p>
+                <p>Срок кредита <span class="c_i_d_day">20 дней</span></p>
+                <p>Ежемесячный платеж <span class="c_i_d_payment">50₴</span></p>
+            </div>
+        </div>
+    </div>
+</div>

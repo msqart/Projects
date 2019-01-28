@@ -1,0 +1,88 @@
+.icon-work_visa {
+  font-size: 200px;
+  left: 50px;
+  top: 30px;
+}
+
+.icon-tur_visa {
+  font-size: 230px;
+  top: -10px;
+  left: -10px;
+}
+
+.icon-visa_for_bussines {
+  font-size: 190px;
+  left: 50px;
+  top: 30px;
+}
+
+.icon-visa_for_student {
+  font-size: 190px;
+  left: 60px;
+  top: 30px;
+}
+
+.icon-complete_visa {
+  font-size: 190px;
+  left: 75px;
+  top: 45px;
+}
+
+.icon-married {
+  font-size: 190px;
+  left: 55px;
+  top: 35px;
+}
+
+.icon-religion {
+  font-size: 200px;
+  left: 65px;
+  top: 25px;
+}
+
+.icon-journalist {
+  font-size: 200px;
+  left: 65px;
+  top: 25px;
+}
+
+.icon-transit_visa {
+  font-size: 105px;
+  left: -10px;
+  top: -10px;
+}
+
+.icon-visa_for_investor {
+  font-size: 180px;
+  left: 65px;
+  top: 40px;
+}
+
+.icon-journalist {
+  font-size: 70px;
+  left: 0;
+  top: -15px;
+}
+.icon-arrow {
+  transition: all $time;
+}
+.slider_btn__right .icon-arrow::before {
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.slider_btn__left .icon-arrow::before {
+  cursor: pointer;
+  font-size: 35px;
+  transform: rotate(180deg);
+  margin-left: -20px;
+  margin-top: -5px;
+}
+
+.footer_soc__icon .icon-fb:before {
+  font-size: 40px;
+}
+
+.footer_soc__icon .icon-inst:before {
+  font-size: 35px;
+}

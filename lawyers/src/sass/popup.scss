@@ -1,0 +1,144 @@
+.popup, .popup_send_info {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  overflow: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility $time, opacity $time, z-index $time;
+  .big_p {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  svg {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+    path {
+      fill: #fc8a5c !important;
+    }
+
+  }
+  form {
+    width: 80%;
+  }
+  label {
+    display: block;
+    margin-left: 26px;
+    margin-top: 48px;
+    color: #313131;
+    font-family: $fontLato;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+  }
+  input {
+    height: 70px;
+    padding: 25px 25px 25px 30px;
+    background: $bgInput;
+    border: 1px solid $borderInput;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  input {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  label {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .popup_cls {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: background $time;
+    &:after {
+      content: '';
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      width: 70%;
+      height: 3px;
+      background: $black;
+      transform: translate(-50%,-50%) + rotate(45deg);
+      transition: background $time, transform .5s;
+    }
+    &:before {
+      content: '';
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      width: 70%;
+      height: 3px;
+      background: $black;
+      transform: translate(-50%,-50%) + rotate(-45deg);
+      transition: background $time, transform .5s;
+    }
+    &:hover {
+      background: $red;
+    }
+    &:hover:after {
+      background: #fff;
+      transform: translate(-50%,-50%) + rotate(225deg);
+    }
+    &:hover:before {
+      background: #fff;
+      transform: translate(-50%,-50%) + rotate(135deg);
+    }
+  }
+  .popup_wrap {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 650px;
+    padding: 50px 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+}
+.title-popup {
+  color: #313131;
+  font-family: $fontPhilosopher;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1;
+}
+.btn-popup {
+  width: 100%;
+  border: none;
+  font-family: $fontPhilosopher;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: center;
+  cursor: pointer;
+  margin-top: 66px;
+}
+.p_active {
+  z-index: 80;
+  visibility: visible;
+  opacity: 1;
+}

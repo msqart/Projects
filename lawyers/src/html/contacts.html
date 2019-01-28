@@ -1,0 +1,94 @@
+@@include('./templates/head.html')
+<body>
+@@include('./templates/header.html')
+<!-- BEGIN FIRST SCREEN -->
+<section class="screen-first">
+    <div class="container">
+        <div class="bread">
+
+            <a href="#"><i class="icon-hme"></i>Главная</a>
+            <a href="#">Контакты</a>
+        </div>
+    </div>
+    <div class="screen-first-bg">
+        <img src="img/contacts-1-bg.jpg" alt="">
+    </div>
+    <!--<img class="screen-first-bg" src="img/screen-1-bg.jpg" alt="">-->
+</section>
+<!-- END FIRST SCREEN -->
+
+<!-- BEGIN CONTACTS SCREEN -->
+<section class="contacts">
+    <div class="container">
+        <span class="triangular contacts-triangular"></span>
+        <div class="title-block contact-title">
+            <span>Контакты</span>
+        </div>
+        <div class="contacts-box">
+            <div class="box-left-side">
+                <div class="box-left-item">
+                    <div class="box-left-icon">
+                        <span>
+                            <i class="icon-phone"></i>
+                        </span>
+                    </div>
+                    <div class="box-left-info">
+                        <a href="tel:">+38 (044) 285-02-91</a>
+                        <a href="tel:">+38 (050) 463-71-71</a>
+                    </div>
+                </div>
+                <div class="box-left-item">
+                    <div class="box-left-icon">
+                        <span>
+                            <i class="icon-placeholder"></i>
+                        </span>
+                    </div>
+                    <div class="box-left-info">
+                        <p>
+                            01135, г. Киев, ул. Златоустовская,
+                            дом 23-а, буква М, 2 этаж.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-left-item">
+                    <div class="box-left-icon">
+                        <span>
+                            <i class="icon-mail"></i>
+                        </span>
+                    </div>
+                    <div class="box-left-info">
+                        <a href="mailto:info@klochkov.partners">info@klochkov.partners</a>
+                    </div>
+                </div>
+                <div class="left-side-soc">
+                    <div class="soc-fb"><span><i class="icon-fb"></i></span></div>
+                    <div class="soc-inst"><span><i class="icon-insta"></i></span></div>
+                </div>
+            </div>
+            <div class="box-right-side">
+                <div class="box-right-title">Записаться на
+                    консультацию
+                </div>
+                <form action="#" class="contacts-form">
+                    <label for="contacts-name">Ваше имя</label>
+                    <input type="text" name="name" pattern="^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']?$"
+                           id="contacts-name" placeholder="Богдан" required>
+
+                    <label for="contacts-phone">Номер телефона</label>
+                    <input type="text" name="phone" id="contacts-phone" placeholder="068 972 55 55" required>
+
+                    <button type="submit" class="btn-form btn-contacts">Отправить</button>
+                </form>
+                <div class="box-right-side-bg">
+                    <img src="img/box-right-side-bg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts-bg">
+        <img src="img/contacts-bg.jpg" alt="">
+    </div>
+</section>
+<!-- END CONTACTS SCREEN -->
+@@include('./templates/map.html')
+@@include('./templates/footer.html')

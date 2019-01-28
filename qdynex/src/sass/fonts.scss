@@ -1,0 +1,101 @@
+/*HelveticaNeueCyr*/
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.eot');
+  src: urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.eot') format('embedded-opentype'),
+  urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+  urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.woff') format('woff'),
+  urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.ttf') format('truetype'),
+  urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.eot');
+  src: urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.eot') format('embedded-opentype'),
+  urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.woff2') format('woff2'),
+  urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.woff') format('woff'),
+  urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.ttf') format('truetype'),
+  urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: urlCss('fonts/HelveticaNeueCyr/Medium/HelveticaNeueCyr-Medium.eot');
+  src: urlCss('fonts/HelveticaNeueCyr/Medium/HelveticaNeueCyr-Medium.eot') format('embedded-opentype'),
+  urlCss('fonts/HelveticaNeueCyr/Medium/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+  urlCss('fonts/HelveticaNeueCyr/Medium/HelveticaNeueCyr-Medium.woff') format('woff'),
+  urlCss('fonts/HelveticaNeueCyr/Medium/HelveticaNeueCyr-Medium.ttf') format('truetype'),
+  urlCss('fonts/HelveticaNeueCyr/Medium/HelveticaNeueCyr-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'fontello';
+  src: urlCss('fonts/fontello/fontello.eot?46915479');
+  src: urlCss('fonts/fontello/fontello.eot?46915479#iefix') format('embedded-opentype'),
+  urlCss('fonts/fontello/fontello.woff2?46915479') format('woff2'),
+  urlCss('fonts/fontello/fontello.woff?46915479') format('woff'),
+  urlCss('fonts/fontello/fontello.ttf?46915479') format('truetype'),
+  urlCss('fonts/fontello/fontello.svg?46915479#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mouse:before {
+  content: '\e800';
+}
+
+.icon-right:before {
+  content: '\e801';
+}
+
+.icon-technical-drawing:before {
+  content: '\e802';
+}
+
+.icon-up:before {
+  content: '\e803';
+}
+
+.icon-usermark:before {
+  content: '\e804';
+}
+
+.icon-userstar:before {
+  content: '\e805';
+}
+
+.icon-down:before {
+  content: '\e806';
+}
+
+.icon-helmet:before {
+  content: '\e807';
+}
+
+.icon-left:before {
+  content: '\e808';
+}

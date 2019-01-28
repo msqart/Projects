@@ -1,0 +1,37 @@
+/*HelveticaNeueCyr*/
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.eot');
+  src: urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.eot') format('embedded-opentype'),
+  urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.woff2') format('woff2'),
+  urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.woff') format('woff'),
+  urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.ttf') format('truetype'),
+  urlCss('fonts/HelveticaNeueCyr/Light/HelveticaNeueCyr-Light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.eot');
+  src: urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.eot') format('embedded-opentype'),
+  urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+  urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.woff') format('woff'),
+  urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.ttf') format('truetype'),
+  urlCss('fonts/HelveticaNeueCyr/Bold/HelveticaNeueCyr-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*MinionPro*/
+@font-face {
+  font-family: 'Minion Pro';
+  src: urlCss('fonts/MinionPro/Regular/MinionPro-Regular.eot');
+  src: urlCss('fonts/MinionPro/Regular/MinionPro-Regular.eot') format('embedded-opentype'),
+  urlCss('fonts/MinionPro/Regular/MinionPro-Regular.woff2') format('woff2'),
+  urlCss('fonts/MinionPro/Regular/MinionPro-Regular.woff') format('woff'),
+  urlCss('fonts/MinionPro/Regular/MinionPro-Regular.ttf') format('truetype'),
+  urlCss('fonts/MinionPro/Regular/MinionPro-Regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
